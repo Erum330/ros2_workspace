@@ -1,0 +1,24 @@
+[16.063s] Invoking command in '/home/erum/ros2/ros2_ws/src/my_first_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/erum/ros2/ros2_ws/build/my_first_pkg/build install --record /home/erum/ros2/ros2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[17.467s] running egg_info
+[17.652s] writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO
+[17.652s] writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt
+[17.655s] writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt
+[17.655s] writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt
+[17.655s] writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt
+[17.842s] reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[17.860s] writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[17.860s] running build
+[17.860s] running build_py
+[17.865s] copying my_first_pkg/minimal_publisher.py -> /home/erum/ros2/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[17.870s] running install
+[17.885s] running install_lib
+[17.940s] copying /home/erum/ros2/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/minimal_publisher.py -> /home/erum/ros2/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[17.945s] byte-compiling /home/erum/ros2/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/minimal_publisher.py to minimal_publisher.cpython-312.pyc
+[17.959s] running install_data
+[17.960s] running install_egg_info
+[18.017s] removing '/home/erum/ros2/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[18.039s] Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/erum/ros2/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info
+[18.051s] running install_scripts
+[18.358s] Installing minimal_publisher script to /home/erum/ros2/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[18.360s] writing list of installed files to '/home/erum/ros2/ros2_ws/build/my_first_pkg/install.log'
+[18.405s] Invoked command in '/home/erum/ros2/ros2_ws/src/my_first_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/erum/ros2/ros2_ws/build/my_first_pkg/build install --record /home/erum/ros2/ros2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data

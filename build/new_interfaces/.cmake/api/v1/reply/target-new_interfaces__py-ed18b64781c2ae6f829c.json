@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/erum/ros2/ros2_ws/build/new_interfaces/new_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "new_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "new_interfaces__py::@3aa5fb07630d3b510ae1",
+	"name" : "new_interfaces__py",
+	"paths" : 
+	{
+		"build" : "new_interfaces__py",
+		"source" : "/home/erum/ros2/ros2_ws/build/new_interfaces/new_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/erum/ros2/ros2_ws/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/erum/ros2/ros2_ws/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

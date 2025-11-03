@@ -1,0 +1,6 @@
+{
+  "package_name": "new_interfaces",
+  "non_idl_tuples": [
+    "/home/erum/ros2/ros2_ws/src/new_interfaces:msg/IotSensor.msg"
+  ]
+}

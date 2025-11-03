@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.cpp.o"
+  "CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.cpp.o.d"
+  "libnew_interfaces__rosidl_typesupport_cpp.pdb"
+  "libnew_interfaces__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
