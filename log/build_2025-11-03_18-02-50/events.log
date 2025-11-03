@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.001485] (Erum_pde4430) JobQueued: {'identifier': 'Erum_pde4430', 'dependencies': OrderedDict()}
+[0.001546] (my_first_pkg) JobQueued: {'identifier': 'my_first_pkg', 'dependencies': OrderedDict()}
+[0.001569] (new_interfaces) JobQueued: {'identifier': 'new_interfaces', 'dependencies': OrderedDict()}
+[0.001641] (Erum_pde4430) JobStarted: {'identifier': 'Erum_pde4430'}
+[0.041438] (my_first_pkg) JobStarted: {'identifier': 'my_first_pkg'}
+[0.097692] (-) TimerEvent: {}
+[0.198187] (-) TimerEvent: {}
+[0.301164] (-) TimerEvent: {}
+[0.404898] (-) TimerEvent: {}
+[0.507232] (-) TimerEvent: {}
+[0.609782] (-) TimerEvent: {}
+[0.712515] (-) TimerEvent: {}
+[0.817925] (-) TimerEvent: {}
+[0.918429] (-) TimerEvent: {}
+[1.019196] (-) TimerEvent: {}
+[1.120248] (-) TimerEvent: {}
+[1.220664] (-) TimerEvent: {}
+[1.323740] (-) TimerEvent: {}
+[1.424799] (-) TimerEvent: {}
+[1.531918] (-) TimerEvent: {}
+[1.641327] (-) TimerEvent: {}
+[1.742934] (-) TimerEvent: {}
+[1.843677] (-) TimerEvent: {}
+[1.952068] (-) TimerEvent: {}
+[2.054034] (-) TimerEvent: {}
+[2.163979] (-) TimerEvent: {}
+[2.279993] (-) TimerEvent: {}
+[2.390074] (-) TimerEvent: {}
+[2.491411] (-) TimerEvent: {}
+[2.599814] (-) TimerEvent: {}
+[2.714691] (-) TimerEvent: {}
+[2.819706] (-) TimerEvent: {}
+[2.928710] (-) TimerEvent: {}
+[3.029355] (-) TimerEvent: {}
+[3.130569] (-) TimerEvent: {}
+[3.232089] (-) TimerEvent: {}
+[3.337683] (-) TimerEvent: {}
+[3.438004] (-) TimerEvent: {}
+[3.538422] (-) TimerEvent: {}
+[3.640756] (-) TimerEvent: {}
+[3.742665] (-) TimerEvent: {}
+[3.844190] (-) TimerEvent: {}
+[3.947347] (-) TimerEvent: {}
+[4.047792] (-) TimerEvent: {}
+[4.153683] (-) TimerEvent: {}
+[4.256683] (-) TimerEvent: {}
+[4.363753] (-) TimerEvent: {}
+[4.464884] (-) TimerEvent: {}
+[4.525775] (Erum_pde4430) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/Erum_pde4430', 'build', '--build-base', '/home/erum/ros2_workspace/build/Erum_pde4430/build', 'install', '--record', '/home/erum/ros2_workspace/build/Erum_pde4430/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/erum/ros2_workspace/src/Erum_pde4430', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum/ros2_workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2648', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2477,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2477', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c037381d_dadc_48c0_ad5f_8c77a1dfff82', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JA07E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.383', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/Erum_pde4430', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.576696] (-) TimerEvent: {}
+[4.685295] (-) TimerEvent: {}
+[4.790236] (my_first_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_pkg', 'build', '--build-base', '/home/erum/ros2_workspace/build/my_first_pkg/build', 'install', '--record', '/home/erum/ros2_workspace/build/my_first_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/erum/ros2_workspace/src/my_first_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum/ros2_workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2648', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2477,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2477', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c037381d_dadc_48c0_ad5f_8c77a1dfff82', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JA07E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.383', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/my_first_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/erum/ros2_workspace/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.798986] (-) TimerEvent: {}
+[4.899323] (-) TimerEvent: {}
+[5.002070] (-) TimerEvent: {}
+[5.105777] (-) TimerEvent: {}
+[5.211169] (-) TimerEvent: {}
+[5.316693] (-) TimerEvent: {}
+[5.421944] (-) TimerEvent: {}
+[5.522462] (-) TimerEvent: {}
+[5.626749] (-) TimerEvent: {}
+[5.727126] (-) TimerEvent: {}
+[5.828930] (-) TimerEvent: {}
+[5.930164] (-) TimerEvent: {}
+[6.034831] (-) TimerEvent: {}
+[6.135168] (-) TimerEvent: {}
+[6.220886] (Erum_pde4430) StdoutLine: {'line': b'running egg_info\n'}
+[6.234130] (Erum_pde4430) StdoutLine: {'line': b'creating ../../build/Erum_pde4430/Erum_pde4430.egg-info\n'}
+[6.235293] (-) TimerEvent: {}
+[6.339722] (-) TimerEvent: {}
+[6.348340] (Erum_pde4430) StdoutLine: {'line': b'writing ../../build/Erum_pde4430/Erum_pde4430.egg-info/PKG-INFO\n'}
+[6.349272] (Erum_pde4430) StdoutLine: {'line': b'writing dependency_links to ../../build/Erum_pde4430/Erum_pde4430.egg-info/dependency_links.txt\n'}
+[6.351590] (Erum_pde4430) StdoutLine: {'line': b'writing entry points to ../../build/Erum_pde4430/Erum_pde4430.egg-info/entry_points.txt\n'}
+[6.352420] (Erum_pde4430) StdoutLine: {'line': b'writing requirements to ../../build/Erum_pde4430/Erum_pde4430.egg-info/requires.txt\n'}
+[6.353858] (Erum_pde4430) StdoutLine: {'line': b'writing top-level names to ../../build/Erum_pde4430/Erum_pde4430.egg-info/top_level.txt\n'}
+[6.362023] (Erum_pde4430) StdoutLine: {'line': b"writing manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'\n"}
+[6.439834] (-) TimerEvent: {}
+[6.543813] (-) TimerEvent: {}
+[6.578679] (Erum_pde4430) StdoutLine: {'line': b"reading manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'\n"}
+[6.582174] (Erum_pde4430) StdoutLine: {'line': b"writing manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'\n"}
+[6.583642] (Erum_pde4430) StdoutLine: {'line': b'running build\n'}
+[6.585799] (Erum_pde4430) StdoutLine: {'line': b'running build_py\n'}
+[6.585998] (Erum_pde4430) StdoutLine: {'line': b'creating /home/erum/ros2_workspace/build/Erum_pde4430/build\n'}
+[6.586293] (Erum_pde4430) StdoutLine: {'line': b'creating /home/erum/ros2_workspace/build/Erum_pde4430/build/lib\n'}
+[6.586424] (Erum_pde4430) StdoutLine: {'line': b'creating /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430\n'}
+[6.589096] (Erum_pde4430) StdoutLine: {'line': b'copying Erum_pde4430/straightmove.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430\n'}
+[6.589263] (Erum_pde4430) StdoutLine: {'line': b'copying Erum_pde4430/__init__.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430\n'}
+[6.589349] (Erum_pde4430) StdoutLine: {'line': b'running install\n'}
+[6.603442] (Erum_pde4430) StdoutLine: {'line': b'running install_lib\n'}
+[6.644669] (-) TimerEvent: {}
+[6.654842] (Erum_pde4430) StdoutLine: {'line': b'creating /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430\n'}
+[6.655106] (Erum_pde4430) StdoutLine: {'line': b'copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/straightmove.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430\n'}
+[6.655198] (Erum_pde4430) StdoutLine: {'line': b'copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/__init__.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430\n'}
+[6.655274] (Erum_pde4430) StdoutLine: {'line': b'byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/straightmove.py to straightmove.cpython-312.pyc\n'}
+[6.655350] (Erum_pde4430) StdoutLine: {'line': b'byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/__init__.py to __init__.cpython-312.pyc\n'}
+[6.659446] (Erum_pde4430) StdoutLine: {'line': b'running install_data\n'}
+[6.659667] (Erum_pde4430) StdoutLine: {'line': b'creating /home/erum/ros2_workspace/install/Erum_pde4430/share/ament_index\n'}
+[6.659754] (Erum_pde4430) StdoutLine: {'line': b'creating /home/erum/ros2_workspace/install/Erum_pde4430/share/ament_index/resource_index\n'}
+[6.660111] (Erum_pde4430) StdoutLine: {'line': b'creating /home/erum/ros2_workspace/install/Erum_pde4430/share/ament_index/resource_index/packages\n'}
+[6.663256] (Erum_pde4430) StdoutLine: {'line': b'copying resource/Erum_pde4430 -> /home/erum/ros2_workspace/install/Erum_pde4430/share/ament_index/resource_index/packages\n'}
+[6.663401] (Erum_pde4430) StdoutLine: {'line': b'copying package.xml -> /home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430\n'}
+[6.663478] (Erum_pde4430) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.744773] (-) TimerEvent: {}
+[6.818744] (Erum_pde4430) StdoutLine: {'line': b'Copying ../../build/Erum_pde4430/Erum_pde4430.egg-info to /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info\n'}
+[6.825671] (Erum_pde4430) StdoutLine: {'line': b'running install_scripts\n'}
+[6.844888] (-) TimerEvent: {}
+[6.888235] (my_first_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.925904] (my_first_pkg) StdoutLine: {'line': b'writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO\n'}
+[6.928133] (my_first_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt\n'}
+[6.928381] (my_first_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt\n'}
+[6.929170] (my_first_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt\n'}
+[6.929706] (my_first_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt\n'}
+[6.944983] (-) TimerEvent: {}
+[7.045328] (-) TimerEvent: {}
+[7.123329] (my_first_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[7.123538] (my_first_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[7.123661] (my_first_pkg) StdoutLine: {'line': b'running build\n'}
+[7.123738] (my_first_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.126147] (my_first_pkg) StdoutLine: {'line': b'running install\n'}
+[7.132949] (my_first_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.148899] (-) TimerEvent: {}
+[7.197844] (my_first_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.198070] (my_first_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.247748] (my_first_pkg) StdoutLine: {'line': b"removing '/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.249279] (-) TimerEvent: {}
+[7.252387] (my_first_pkg) StdoutLine: {'line': b'Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info\n'}
+[7.256250] (my_first_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.349382] (-) TimerEvent: {}
+[7.375788] (Erum_pde4430) StdoutLine: {'line': b'Installing straightmove script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430\n'}
+[7.378874] (Erum_pde4430) StdoutLine: {'line': b"writing list of installed files to '/home/erum/ros2_workspace/build/Erum_pde4430/install.log'\n"}
+[7.434666] (Erum_pde4430) CommandEnded: {'returncode': 0}
+[7.449666] (-) TimerEvent: {}
+[7.469477] (Erum_pde4430) JobEnded: {'identifier': 'Erum_pde4430', 'rc': 0}
+[7.470432] (new_interfaces) JobStarted: {'identifier': 'new_interfaces'}
+[7.484464] (new_interfaces) JobProgress: {'identifier': 'new_interfaces', 'progress': 'cmake'}
+[7.493206] (new_interfaces) JobProgress: {'identifier': 'new_interfaces', 'progress': 'build'}
+[7.493279] (new_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erum/ros2_workspace/build/new_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/erum/ros2_workspace/build/new_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum/ros2_workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2648', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2477,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2477', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c037381d_dadc_48c0_ad5f_8c77a1dfff82', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JA07E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.383', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/new_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.514070] (my_first_pkg) StdoutLine: {'line': b'Installing minimal_publisher script to /home/erum/ros2_workspace/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.514922] (my_first_pkg) StdoutLine: {'line': b'Installing minimal_subscriber script to /home/erum/ros2_workspace/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.515012] (my_first_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/erum/ros2_workspace/build/my_first_pkg/install.log'\n"}
+[7.552370] (-) TimerEvent: {}
+[7.605748] (my_first_pkg) CommandEnded: {'returncode': 0}
+[7.619291] (my_first_pkg) JobEnded: {'identifier': 'my_first_pkg', 'rc': 0}
+[7.643864] (new_interfaces) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/erum/ros2_workspace/build/new_interfaces/CMakeCache.txt is different than the directory /home/erum/ros2/ros2_ws/build/new_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[7.652920] (-) TimerEvent: {}
+[7.754850] (-) TimerEvent: {}
+[7.802554] (new_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.855761] (-) TimerEvent: {}
+[7.910098] (new_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.956702] (-) TimerEvent: {}
+[8.057358] (-) TimerEvent: {}
+[8.158141] (-) TimerEvent: {}
+[8.227072] (new_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[8.258449] (-) TimerEvent: {}
+[8.261276] (new_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.358691] (-) TimerEvent: {}
+[8.459632] (-) TimerEvent: {}
+[8.498806] (new_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.559948] (-) TimerEvent: {}
+[8.661064] (-) TimerEvent: {}
+[8.665547] (new_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[8.680724] (new_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):\n'}
+[8.681500] (new_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/IotSensor.msg' doesn't\n"}
+[8.681785] (new_interfaces) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[8.682017] (new_interfaces) StderrLine: {'line': b"  '/home/erum/ros2/ros2_ws/src/new_interfaces'\n"}
+[8.682140] (new_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.682251] (new_interfaces) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[8.682358] (new_interfaces) StderrLine: {'line': b'\n'}
+[8.682439] (new_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[8.682519] (new_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.745773] (new_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:815: cmake_check_build_system] Error 1\n'}
+[8.756543] (new_interfaces) CommandEnded: {'returncode': 2}
+[8.762811] (-) TimerEvent: {}
+[8.814269] (new_interfaces) JobEnded: {'identifier': 'new_interfaces', 'rc': 2}
+[8.827351] (-) EventReactorShutdown: {}

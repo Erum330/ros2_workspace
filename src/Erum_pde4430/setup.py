@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['straightmove = Erum_pde4430.straightmove:main',
         ],
     },
 )
