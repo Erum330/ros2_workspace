@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erum/ros2/ros2_ws/src/new_interfaces
+CMAKE_SOURCE_DIR = /home/erum/ros2_workspace/src/new_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erum/ros2/ros2_ws/build/new_interfaces
+CMAKE_BINARY_DIR = /home/erum/ros2_workspace/build/new_interfaces
 
 # Utility rule file for new_interfaces__rosidl_generator_type_description.
 
@@ -66,16 +66,16 @@ include CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/compile
 # Include the progress variables for this target.
 include CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/progress.make
 
-CMakeFiles/new_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/new_interfaces/msg/IotSensor.json
+CMakeFiles/new_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json
 
-rosidl_generator_type_description/new_interfaces/msg/IotSensor.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
-rosidl_generator_type_description/new_interfaces/msg/IotSensor.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
-rosidl_generator_type_description/new_interfaces/msg/IotSensor.json: rosidl_adapter/new_interfaces/msg/IotSensor.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erum/ros2/ros2_ws/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_type_description__arguments.json
+rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
+rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
+rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json: rosidl_adapter/new_interfaces/msg/IOTSensor.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_type_description__arguments.json
 
 new_interfaces__rosidl_generator_type_description: CMakeFiles/new_interfaces__rosidl_generator_type_description
-new_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/new_interfaces/msg/IotSensor.json
+new_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json
 new_interfaces__rosidl_generator_type_description: CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : new_interfaces__rosidl_generator_type_description
 
@@ -88,6 +88,6 @@ CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/depend:
-	cd /home/erum/ros2/ros2_ws/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/erum/ros2_workspace/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/new_interfaces__rosidl_generator_type_description.dir/depend
 

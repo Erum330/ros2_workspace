@@ -1,5 +1,5 @@
 // generated from rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.h.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 
 #ifndef NEW_INTERFACES__MSG__DETAIL__IOT_SENSOR__ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_HPP_
@@ -18,7 +18,7 @@ extern "C"
 // TODO(dirk-thomas) these visibility macros should be message package specific
 ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_PUBLIC
 const rosidl_message_type_support_t *
-  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, new_interfaces, msg, IotSensor)();
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, new_interfaces, msg, IOTSensor)();
 
 #ifdef __cplusplus
 }

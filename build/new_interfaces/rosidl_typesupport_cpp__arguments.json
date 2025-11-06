@@ -1,9 +1,9 @@
 {
   "package_name": "new_interfaces",
-  "output_dir": "/home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_typesupport_cpp/new_interfaces",
+  "output_dir": "/home/erum/ros2_workspace/build/new_interfaces/rosidl_typesupport_cpp/new_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_adapter/new_interfaces:msg/IotSensor.idl"
+    "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces:msg/IOTSensor.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -12,6 +12,6 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_adapter/new_interfaces/msg/IotSensor.idl"
+    "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces/msg/IOTSensor.idl"
   ]
 }

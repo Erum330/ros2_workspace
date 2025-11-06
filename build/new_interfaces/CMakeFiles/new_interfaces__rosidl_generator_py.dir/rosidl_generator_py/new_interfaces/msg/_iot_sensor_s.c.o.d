@@ -1,5 +1,5 @@
 CMakeFiles/new_interfaces__rosidl_generator_py.dir/rosidl_generator_py/new_interfaces/msg/_iot_sensor_s.c.o: \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_py/new_interfaces/msg/_iot_sensor_s.c \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_py/new_interfaces/msg/_iot_sensor_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.12/Python.h \
  /usr/include/python3.12/patchlevel.h /usr/include/python3.12/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.12/pyconfig.h \
@@ -221,10 +221,10 @@ CMakeFiles/new_interfaces__rosidl_generator_py.dir/rosidl_generator_py/new_inter
  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__struct.h \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__functions.h \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__functions.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
@@ -241,5 +241,5 @@ CMakeFiles/new_interfaces__rosidl_generator_py.dir/rosidl_generator_py/new_inter
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

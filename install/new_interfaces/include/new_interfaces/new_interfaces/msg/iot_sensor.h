@@ -1,5 +1,5 @@
 // generated from rosidl_generator_c/resource/idl.h.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 
 #ifndef NEW_INTERFACES__MSG__IOT_SENSOR_H_

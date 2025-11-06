@@ -1,5 +1,5 @@
 // generated from rosidl_generator_py/resource/_idl_support.c.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
 #include <Python.h>
@@ -50,9 +50,18 @@ bool new_interfaces__msg__iot_sensor__convert_from_py(PyObject * _pymsg, void * 
       }
       snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    assert(strncmp("new_interfaces.msg._iot_sensor.IotSensor", full_classname_dest, 40) == 0);
+    assert(strncmp("new_interfaces.msg._iot_sensor.IOTSensor", full_classname_dest, 40) == 0);
   }
-  new_interfaces__msg__IotSensor * ros_message = _ros_message;
+  new_interfaces__msg__IOTSensor * ros_message = _ros_message;
+  {  // id
+    PyObject * field = PyObject_GetAttrString(_pymsg, "id");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->id = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
   {  // name
     PyObject * field = PyObject_GetAttrString(_pymsg, "name");
     if (!field) {
@@ -68,13 +77,13 @@ bool new_interfaces__msg__iot_sensor__convert_from_py(PyObject * _pymsg, void * 
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
-  {  // id
-    PyObject * field = PyObject_GetAttrString(_pymsg, "id");
+  {  // temperature
+    PyObject * field = PyObject_GetAttrString(_pymsg, "temperature");
     if (!field) {
       return false;
     }
-    assert(PyLong_Check(field));
-    ros_message->id = (int32_t)PyLong_AsLong(field);
+    assert(PyFloat_Check(field));
+    ros_message->temperature = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // humidity
@@ -83,16 +92,7 @@ bool new_interfaces__msg__iot_sensor__convert_from_py(PyObject * _pymsg, void * 
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->humidity = PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // temperature
-    PyObject * field = PyObject_GetAttrString(_pymsg, "temperature");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->temperature = PyFloat_AS_DOUBLE(field);
+    ros_message->humidity = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -102,12 +102,12 @@ bool new_interfaces__msg__iot_sensor__convert_from_py(PyObject * _pymsg, void * 
 ROSIDL_GENERATOR_C_EXPORT
 PyObject * new_interfaces__msg__iot_sensor__convert_to_py(void * raw_ros_message)
 {
-  /* NOTE(esteve): Call constructor of IotSensor */
+  /* NOTE(esteve): Call constructor of IOTSensor */
   PyObject * _pymessage = NULL;
   {
     PyObject * pymessage_module = PyImport_ImportModule("new_interfaces.msg._iot_sensor");
     assert(pymessage_module);
-    PyObject * pymessage_class = PyObject_GetAttrString(pymessage_module, "IotSensor");
+    PyObject * pymessage_class = PyObject_GetAttrString(pymessage_module, "IOTSensor");
     assert(pymessage_class);
     Py_DECREF(pymessage_module);
     _pymessage = PyObject_CallObject(pymessage_class, NULL);
@@ -116,7 +116,18 @@ PyObject * new_interfaces__msg__iot_sensor__convert_to_py(void * raw_ros_message
       return NULL;
     }
   }
-  new_interfaces__msg__IotSensor * ros_message = (new_interfaces__msg__IotSensor *)raw_ros_message;
+  new_interfaces__msg__IOTSensor * ros_message = (new_interfaces__msg__IOTSensor *)raw_ros_message;
+  {  // id
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->id);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "id", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // name
     PyObject * field = NULL;
     field = PyUnicode_DecodeUTF8(
@@ -134,11 +145,11 @@ PyObject * new_interfaces__msg__iot_sensor__convert_to_py(void * raw_ros_message
       }
     }
   }
-  {  // id
+  {  // temperature
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->id);
+    field = PyFloat_FromDouble(ros_message->temperature);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "id", field);
+      int rc = PyObject_SetAttrString(_pymessage, "temperature", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -150,17 +161,6 @@ PyObject * new_interfaces__msg__iot_sensor__convert_to_py(void * raw_ros_message
     field = PyFloat_FromDouble(ros_message->humidity);
     {
       int rc = PyObject_SetAttrString(_pymessage, "humidity", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // temperature
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->temperature);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "temperature", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

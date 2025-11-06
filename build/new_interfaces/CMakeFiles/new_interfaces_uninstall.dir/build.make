@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erum/ros2/ros2_ws/src/new_interfaces
+CMAKE_SOURCE_DIR = /home/erum/ros2_workspace/src/new_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erum/ros2/ros2_ws/build/new_interfaces
+CMAKE_BINARY_DIR = /home/erum/ros2_workspace/build/new_interfaces
 
 # Utility rule file for new_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/new_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/new_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/new_interfaces_uninstall:
-	/usr/bin/cmake -P /home/erum/ros2/ros2_ws/build/new_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/erum/ros2_workspace/build/new_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 new_interfaces_uninstall: CMakeFiles/new_interfaces_uninstall
 new_interfaces_uninstall: CMakeFiles/new_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/new_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/new_interfaces_uninstall.dir/clean
 
 CMakeFiles/new_interfaces_uninstall.dir/depend:
-	cd /home/erum/ros2/ros2_ws/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces/CMakeFiles/new_interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/erum/ros2_workspace/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/new_interfaces_uninstall.dir/depend
 

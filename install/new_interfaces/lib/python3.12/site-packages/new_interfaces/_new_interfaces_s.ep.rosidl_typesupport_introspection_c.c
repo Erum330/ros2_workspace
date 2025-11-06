@@ -30,13 +30,13 @@ static struct PyModuleDef new_interfaces__module = {
 
 static void * new_interfaces__msg__iot_sensor__create_ros_message(void)
 {
-  return new_interfaces__msg__IotSensor__create();
+  return new_interfaces__msg__IOTSensor__create();
 }
 
 static void new_interfaces__msg__iot_sensor__destroy_ros_message(void * raw_ros_message)
 {
-  new_interfaces__msg__IotSensor * ros_message = (new_interfaces__msg__IotSensor *)raw_ros_message;
-  new_interfaces__msg__IotSensor__destroy(ros_message);
+  new_interfaces__msg__IOTSensor * ros_message = (new_interfaces__msg__IOTSensor *)raw_ros_message;
+  new_interfaces__msg__IOTSensor__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
@@ -47,7 +47,7 @@ PyObject * new_interfaces__msg__iot_sensor__convert_to_py(void * raw_ros_message
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(new_interfaces, msg, IotSensor);
+ROSIDL_GET_MSG_TYPE_SUPPORT(new_interfaces, msg, IOTSensor);
 
 int8_t
 _register_msg_type__msg__iot_sensor(PyObject * pymodule)
@@ -132,7 +132,7 @@ _register_msg_type__msg__iot_sensor(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(new_interfaces, msg, IotSensor),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(new_interfaces, msg, IOTSensor),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed

@@ -1,5 +1,5 @@
 // generated from rosidl_generator_c/resource/idl__type_support.h.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 
 // IWYU pragma: private, include "new_interfaces/msg/iot_sensor.h"
@@ -26,7 +26,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   rosidl_typesupport_c,
   new_interfaces,
   msg,
-  IotSensor
+  IOTSensor
 )(void);
 
 #ifdef __cplusplus

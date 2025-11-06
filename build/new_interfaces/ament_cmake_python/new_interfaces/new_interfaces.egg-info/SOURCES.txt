@@ -4,5 +4,3 @@ new_interfaces.egg-info/PKG-INFO
 new_interfaces.egg-info/SOURCES.txt
 new_interfaces.egg-info/dependency_links.txt
 new_interfaces.egg-info/top_level.txt
-new_interfaces/msg/__init__.py
-new_interfaces/msg/_iot_sensor.py

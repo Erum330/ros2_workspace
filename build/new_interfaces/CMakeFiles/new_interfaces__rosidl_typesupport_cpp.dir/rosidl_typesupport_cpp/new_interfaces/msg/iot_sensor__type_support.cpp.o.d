@@ -1,5 +1,5 @@
 CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.cpp.o: \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.cpp \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -40,7 +40,7 @@ CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__functions.h \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__functions.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -73,9 +73,9 @@ CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new
  /usr/include/c++/13/bits/std_abs.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__struct.h \
- /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__struct.hpp \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__struct.h \
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \

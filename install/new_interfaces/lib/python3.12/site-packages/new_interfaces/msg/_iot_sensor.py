@@ -1,5 +1,5 @@
 # generated from rosidl_generator_py/resource/_idl.py.em
-# with input from new_interfaces:msg/IotSensor.idl
+# with input from new_interfaces:msg/IOTSensor.idl
 # generated code does not contain a copyright notice
 
 # This is being done at the module level and not on the instance level to avoid looking
@@ -19,8 +19,8 @@ import math  # noqa: E402, I100
 import rosidl_parser.definition  # noqa: E402, I100
 
 
-class Metaclass_IotSensor(type):
-    """Metaclass of message 'IotSensor'."""
+class Metaclass_IOTSensor(type):
+    """Metaclass of message 'IOTSensor'."""
 
     _CREATE_ROS_MESSAGE = None
     _CONVERT_FROM_PY = None
@@ -40,7 +40,7 @@ class Metaclass_IotSensor(type):
             import logging
             import traceback
             logger = logging.getLogger(
-                'new_interfaces.msg.IotSensor')
+                'new_interfaces.msg.IOTSensor')
             logger.debug(
                 'Failed to import needed modules for type support:\n' +
                 traceback.format_exc())
@@ -60,31 +60,31 @@ class Metaclass_IotSensor(type):
         }
 
 
-class IotSensor(metaclass=Metaclass_IotSensor):
-    """Message class 'IotSensor'."""
+class IOTSensor(metaclass=Metaclass_IOTSensor):
+    """Message class 'IOTSensor'."""
 
     __slots__ = [
-        '_name',
         '_id',
-        '_humidity',
+        '_name',
         '_temperature',
+        '_humidity',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'name': 'string',
         'id': 'int32',
-        'humidity': 'double',
-        'temperature': 'double',
+        'name': 'string',
+        'temperature': 'float',
+        'humidity': 'float',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
-        rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
-        rosidl_parser.definition.BasicType('double'),  # noqa: E501
-        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -96,10 +96,10 @@ class IotSensor(metaclass=Metaclass_IotSensor):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.name = kwargs.get('name', str())
         self.id = kwargs.get('id', int())
-        self.humidity = kwargs.get('humidity', float())
+        self.name = kwargs.get('name', str())
         self.temperature = kwargs.get('temperature', float())
+        self.humidity = kwargs.get('humidity', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -131,13 +131,13 @@ class IotSensor(metaclass=Metaclass_IotSensor):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.name != other.name:
-            return False
         if self.id != other.id:
             return False
-        if self.humidity != other.humidity:
+        if self.name != other.name:
             return False
         if self.temperature != other.temperature:
+            return False
+        if self.humidity != other.humidity:
             return False
         return True
 
@@ -145,19 +145,6 @@ class IotSensor(metaclass=Metaclass_IotSensor):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
-
-    @builtins.property
-    def name(self):
-        """Message field 'name'."""
-        return self._name
-
-    @name.setter
-    def name(self, value):
-        if self._check_fields:
-            assert \
-                isinstance(value, str), \
-                "The 'name' field must be of type 'str'"
-        self._name = value
 
     @builtins.property  # noqa: A003
     def id(self):  # noqa: A003
@@ -175,19 +162,17 @@ class IotSensor(metaclass=Metaclass_IotSensor):
         self._id = value
 
     @builtins.property
-    def humidity(self):
-        """Message field 'humidity'."""
-        return self._humidity
+    def name(self):
+        """Message field 'name'."""
+        return self._name
 
-    @humidity.setter
-    def humidity(self, value):
+    @name.setter
+    def name(self, value):
         if self._check_fields:
             assert \
-                isinstance(value, float), \
-                "The 'humidity' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'humidity' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._humidity = value
+                isinstance(value, str), \
+                "The 'name' field must be of type 'str'"
+        self._name = value
 
     @builtins.property
     def temperature(self):
@@ -200,6 +185,21 @@ class IotSensor(metaclass=Metaclass_IotSensor):
             assert \
                 isinstance(value, float), \
                 "The 'temperature' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'temperature' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'temperature' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._temperature = value
+
+    @builtins.property
+    def humidity(self):
+        """Message field 'humidity'."""
+        return self._humidity
+
+    @humidity.setter
+    def humidity(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'humidity' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'humidity' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._humidity = value

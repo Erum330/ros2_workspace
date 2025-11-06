@@ -1,8 +1,8 @@
-# Install script for directory: /home/erum/ros2/ros2_ws/build/new_interfaces/new_interfaces__py
+# Install script for directory: /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/erum/ros2/ros2_ws/install/new_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/erum/ros2_workspace/install/new_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

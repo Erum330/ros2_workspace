@@ -1,5 +1,5 @@
 // generated from rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 
 #include "array"
@@ -26,37 +26,19 @@ namespace msg
 namespace rosidl_typesupport_introspection_cpp
 {
 
-void IotSensor_init_function(
+void IOTSensor_init_function(
   void * message_memory, rosidl_runtime_cpp::MessageInitialization _init)
 {
-  new (message_memory) new_interfaces::msg::IotSensor(_init);
+  new (message_memory) new_interfaces::msg::IOTSensor(_init);
 }
 
-void IotSensor_fini_function(void * message_memory)
+void IOTSensor_fini_function(void * message_memory)
 {
-  auto typed_message = static_cast<new_interfaces::msg::IotSensor *>(message_memory);
-  typed_message->~IotSensor();
+  auto typed_message = static_cast<new_interfaces::msg::IOTSensor *>(message_memory);
+  typed_message->~IOTSensor();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember IotSensor_message_member_array[4] = {
-  {
-    "name",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is key
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(new_interfaces::msg::IotSensor, name),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
+static const ::rosidl_typesupport_introspection_cpp::MessageMember IOTSensor_message_member_array[4] = {
   {
     "id",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
@@ -66,7 +48,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember IotSensor_mes
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(new_interfaces::msg::IotSensor, id),  // bytes offset in struct
+    offsetof(new_interfaces::msg::IOTSensor, id),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -76,15 +58,15 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember IotSensor_mes
     nullptr  // resize(index) function pointer
   },
   {
-    "humidity",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    "name",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(new_interfaces::msg::IotSensor, humidity),  // bytes offset in struct
+    offsetof(new_interfaces::msg::IOTSensor, name),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -95,14 +77,32 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember IotSensor_mes
   },
   {
     "temperature",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(new_interfaces::msg::IotSensor, temperature),  // bytes offset in struct
+    offsetof(new_interfaces::msg::IOTSensor, temperature),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "humidity",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(new_interfaces::msg::IOTSensor, humidity),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -113,24 +113,24 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember IotSensor_mes
   }
 };
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMembers IotSensor_message_members = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMembers IOTSensor_message_members = {
   "new_interfaces::msg",  // message namespace
-  "IotSensor",  // message name
+  "IOTSensor",  // message name
   4,  // number of fields
-  sizeof(new_interfaces::msg::IotSensor),
+  sizeof(new_interfaces::msg::IOTSensor),
   false,  // has_any_key_member_
-  IotSensor_message_member_array,  // message members
-  IotSensor_init_function,  // function to initialize message memory (memory has to be allocated)
-  IotSensor_fini_function  // function to terminate message instance (will not free memory)
+  IOTSensor_message_member_array,  // message members
+  IOTSensor_init_function,  // function to initialize message memory (memory has to be allocated)
+  IOTSensor_fini_function  // function to terminate message instance (will not free memory)
 };
 
-static const rosidl_message_type_support_t IotSensor_message_type_support_handle = {
+static const rosidl_message_type_support_t IOTSensor_message_type_support_handle = {
   ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
-  &IotSensor_message_members,
+  &IOTSensor_message_members,
   get_message_typesupport_handle_function,
-  &new_interfaces__msg__IotSensor__get_type_hash,
-  &new_interfaces__msg__IotSensor__get_type_description,
-  &new_interfaces__msg__IotSensor__get_type_description_sources,
+  &new_interfaces__msg__IOTSensor__get_type_hash,
+  &new_interfaces__msg__IOTSensor__get_type_description,
+  &new_interfaces__msg__IOTSensor__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_introspection_cpp
@@ -146,9 +146,9 @@ namespace rosidl_typesupport_introspection_cpp
 template<>
 ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_PUBLIC
 const rosidl_message_type_support_t *
-get_message_type_support_handle<new_interfaces::msg::IotSensor>()
+get_message_type_support_handle<new_interfaces::msg::IOTSensor>()
 {
-  return &::new_interfaces::msg::rosidl_typesupport_introspection_cpp::IotSensor_message_type_support_handle;
+  return &::new_interfaces::msg::rosidl_typesupport_introspection_cpp::IOTSensor_message_type_support_handle;
 }
 
 }  // namespace rosidl_typesupport_introspection_cpp
@@ -160,8 +160,8 @@ extern "C"
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_PUBLIC
 const rosidl_message_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, new_interfaces, msg, IotSensor)() {
-  return &::new_interfaces::msg::rosidl_typesupport_introspection_cpp::IotSensor_message_type_support_handle;
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, new_interfaces, msg, IOTSensor)() {
+  return &::new_interfaces::msg::rosidl_typesupport_introspection_cpp::IOTSensor_message_type_support_handle;
 }
 
 #ifdef __cplusplus

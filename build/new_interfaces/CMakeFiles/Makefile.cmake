@@ -20,9 +20,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "rosidl_cmake/rosidl_cmake-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
-  "/home/erum/ros2/ros2_ws/src/new_interfaces/CMakeLists.txt"
-  "/home/erum/ros2/ros2_ws/src/new_interfaces/msg/IotSensor.msg"
-  "/home/erum/ros2/ros2_ws/src/new_interfaces/package.xml"
+  "/home/erum/ros2_workspace/src/new_interfaces/CMakeLists.txt"
+  "/home/erum/ros2_workspace/src/new_interfaces/msg/IOTSensor.msg"
+  "/home/erum/ros2_workspace/src/new_interfaces/package.xml"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config-version.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-shared-targets-none.cmake"
@@ -507,7 +507,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_core/stamps/templates_2_cmake.py.stamp"
   "ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
   "CTestConfiguration.ini"
-  "ament_cmake_core/stamps/IotSensor.msg.stamp"
+  "ament_cmake_core/stamps/IOTSensor.msg.stamp"
   "ament_cmake_core/stamps/package.xml.stamp"
   "ament_cmake_core/stamps/package_xml_2_cmake.py.stamp"
   "rosidl_generator_c/new_interfaces/msg/rosidl_generator_c__visibility_control.h"
@@ -553,7 +553,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_environment_hooks/package.dsv"
   "ament_cmake_index/share/ament_index/resource_index/packages/new_interfaces"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "/home/erum/ros2/ros2_ws/build/new_interfaces/new_interfaces__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -576,5 +576,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/new_interfaces_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake"
   "CMakeFiles/new_interfaces_s__rosidl_typesupport_introspection_c.dir/DependInfo.cmake"
   "CMakeFiles/new_interfaces_s__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/erum/ros2/ros2_ws/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py.dir/DependInfo.cmake"
+  "/home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py.dir/DependInfo.cmake"
   )

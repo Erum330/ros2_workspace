@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/new_interfaces__rosidl_generator_type_description"
-  "rosidl_generator_type_description/new_interfaces/msg/IotSensor.json"
+  "rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json"
 )
 
 # Per-language clean rules from dependency scanning.

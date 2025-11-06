@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erum/ros2/ros2_ws/src/new_interfaces
+CMAKE_SOURCE_DIR = /home/erum/ros2_workspace/src/new_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erum/ros2/ros2_ws/build/new_interfaces
+CMAKE_BINARY_DIR = /home/erum/ros2_workspace/build/new_interfaces
 
 # Utility rule file for new_interfaces.
 
@@ -66,7 +66,7 @@ include CMakeFiles/new_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/new_interfaces.dir/progress.make
 
-CMakeFiles/new_interfaces: /home/erum/ros2/ros2_ws/src/new_interfaces/msg/IotSensor.msg
+CMakeFiles/new_interfaces: /home/erum/ros2_workspace/src/new_interfaces/msg/IOTSensor.msg
 
 new_interfaces: CMakeFiles/new_interfaces
 new_interfaces: CMakeFiles/new_interfaces.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/new_interfaces.dir/clean:
 .PHONY : CMakeFiles/new_interfaces.dir/clean
 
 CMakeFiles/new_interfaces.dir/depend:
-	cd /home/erum/ros2/ros2_ws/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces/CMakeFiles/new_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/erum/ros2_workspace/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/new_interfaces.dir/depend
 

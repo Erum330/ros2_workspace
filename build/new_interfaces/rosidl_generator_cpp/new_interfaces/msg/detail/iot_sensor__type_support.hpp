@@ -1,5 +1,5 @@
 // generated from rosidl_generator_cpp/resource/idl__type_support.hpp.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 
 #ifndef NEW_INTERFACES__MSG__DETAIL__IOT_SENSOR__TYPE_SUPPORT_HPP_
@@ -22,7 +22,7 @@ const rosidl_message_type_support_t *
   rosidl_typesupport_cpp,
   new_interfaces,
   msg,
-  IotSensor
+  IOTSensor
 )();
 #ifdef __cplusplus
 }

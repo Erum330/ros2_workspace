@@ -1,5 +1,5 @@
 // generated from rosidl_generator_cpp/resource/idl__traits.hpp.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 
 // IWYU pragma: private, include "new_interfaces/msg/iot_sensor.hpp"
@@ -24,17 +24,10 @@ namespace msg
 {
 
 inline void to_flow_style_yaml(
-  const IotSensor & msg,
+  const IOTSensor & msg,
   std::ostream & out)
 {
   out << "{";
-  // member: name
-  {
-    out << "name: ";
-    rosidl_generator_traits::value_to_yaml(msg.name, out);
-    out << ", ";
-  }
-
   // member: id
   {
     out << "id: ";
@@ -42,10 +35,10 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: humidity
+  // member: name
   {
-    out << "humidity: ";
-    rosidl_generator_traits::value_to_yaml(msg.humidity, out);
+    out << "name: ";
+    rosidl_generator_traits::value_to_yaml(msg.name, out);
     out << ", ";
   }
 
@@ -53,24 +46,21 @@ inline void to_flow_style_yaml(
   {
     out << "temperature: ";
     rosidl_generator_traits::value_to_yaml(msg.temperature, out);
+    out << ", ";
+  }
+
+  // member: humidity
+  {
+    out << "humidity: ";
+    rosidl_generator_traits::value_to_yaml(msg.humidity, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
 
 inline void to_block_style_yaml(
-  const IotSensor & msg,
+  const IOTSensor & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: name
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "name: ";
-    rosidl_generator_traits::value_to_yaml(msg.name, out);
-    out << "\n";
-  }
-
   // member: id
   {
     if (indentation > 0) {
@@ -81,13 +71,13 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: humidity
+  // member: name
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "humidity: ";
-    rosidl_generator_traits::value_to_yaml(msg.humidity, out);
+    out << "name: ";
+    rosidl_generator_traits::value_to_yaml(msg.name, out);
     out << "\n";
   }
 
@@ -100,9 +90,19 @@ inline void to_block_style_yaml(
     rosidl_generator_traits::value_to_yaml(msg.temperature, out);
     out << "\n";
   }
+
+  // member: humidity
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "humidity: ";
+    rosidl_generator_traits::value_to_yaml(msg.humidity, out);
+    out << "\n";
+  }
 }  // NOLINT(readability/fn_size)
 
-inline std::string to_yaml(const IotSensor & msg, bool use_flow_style = false)
+inline std::string to_yaml(const IOTSensor & msg, bool use_flow_style = false)
 {
   std::ostringstream out;
   if (use_flow_style) {
@@ -122,40 +122,40 @@ namespace rosidl_generator_traits
 
 [[deprecated("use new_interfaces::msg::to_block_style_yaml() instead")]]
 inline void to_yaml(
-  const new_interfaces::msg::IotSensor & msg,
+  const new_interfaces::msg::IOTSensor & msg,
   std::ostream & out, size_t indentation = 0)
 {
   new_interfaces::msg::to_block_style_yaml(msg, out, indentation);
 }
 
 [[deprecated("use new_interfaces::msg::to_yaml() instead")]]
-inline std::string to_yaml(const new_interfaces::msg::IotSensor & msg)
+inline std::string to_yaml(const new_interfaces::msg::IOTSensor & msg)
 {
   return new_interfaces::msg::to_yaml(msg);
 }
 
 template<>
-inline const char * data_type<new_interfaces::msg::IotSensor>()
+inline const char * data_type<new_interfaces::msg::IOTSensor>()
 {
-  return "new_interfaces::msg::IotSensor";
+  return "new_interfaces::msg::IOTSensor";
 }
 
 template<>
-inline const char * name<new_interfaces::msg::IotSensor>()
+inline const char * name<new_interfaces::msg::IOTSensor>()
 {
-  return "new_interfaces/msg/IotSensor";
+  return "new_interfaces/msg/IOTSensor";
 }
 
 template<>
-struct has_fixed_size<new_interfaces::msg::IotSensor>
+struct has_fixed_size<new_interfaces::msg::IOTSensor>
   : std::integral_constant<bool, false> {};
 
 template<>
-struct has_bounded_size<new_interfaces::msg::IotSensor>
+struct has_bounded_size<new_interfaces::msg::IOTSensor>
   : std::integral_constant<bool, false> {};
 
 template<>
-struct is_message<new_interfaces::msg::IotSensor>
+struct is_message<new_interfaces::msg::IOTSensor>
   : std::true_type {};
 
 }  // namespace rosidl_generator_traits

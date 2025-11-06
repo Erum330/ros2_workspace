@@ -1,5 +1,5 @@
 // generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 #ifndef NEW_INTERFACES__MSG__DETAIL__IOT_SENSOR__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
 #define NEW_INTERFACES__MSG__DETAIL__IOT_SENSOR__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
@@ -18,45 +18,45 @@ extern "C"
 #endif
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-bool cdr_serialize_new_interfaces__msg__IotSensor(
-  const new_interfaces__msg__IotSensor * ros_message,
+bool cdr_serialize_new_interfaces__msg__IOTSensor(
+  const new_interfaces__msg__IOTSensor * ros_message,
   eprosima::fastcdr::Cdr & cdr);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-bool cdr_deserialize_new_interfaces__msg__IotSensor(
+bool cdr_deserialize_new_interfaces__msg__IOTSensor(
   eprosima::fastcdr::Cdr &,
-  new_interfaces__msg__IotSensor * ros_message);
+  new_interfaces__msg__IOTSensor * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t get_serialized_size_new_interfaces__msg__IotSensor(
+size_t get_serialized_size_new_interfaces__msg__IOTSensor(
   const void * untyped_ros_message,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t max_serialized_size_new_interfaces__msg__IotSensor(
+size_t max_serialized_size_new_interfaces__msg__IOTSensor(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-bool cdr_serialize_key_new_interfaces__msg__IotSensor(
-  const new_interfaces__msg__IotSensor * ros_message,
+bool cdr_serialize_key_new_interfaces__msg__IOTSensor(
+  const new_interfaces__msg__IOTSensor * ros_message,
   eprosima::fastcdr::Cdr & cdr);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t get_serialized_size_key_new_interfaces__msg__IotSensor(
+size_t get_serialized_size_key_new_interfaces__msg__IOTSensor(
   const void * untyped_ros_message,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t max_serialized_size_key_new_interfaces__msg__IotSensor(
+size_t max_serialized_size_key_new_interfaces__msg__IOTSensor(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
 const rosidl_message_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, new_interfaces, msg, IotSensor)();
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, new_interfaces, msg, IOTSensor)();
 
 #ifdef __cplusplus
 }

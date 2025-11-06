@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erum/ros2/ros2_ws/src/new_interfaces
+CMAKE_SOURCE_DIR = /home/erum/ros2_workspace/src/new_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erum/ros2/ros2_ws/build/new_interfaces
+CMAKE_BINARY_DIR = /home/erum/ros2_workspace/build/new_interfaces
 
 # Utility rule file for new_interfaces__cpp.
 
@@ -92,9 +92,9 @@ rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/ros
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
-rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: rosidl_adapter/new_interfaces/msg/IotSensor.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erum/ros2/ros2_ws/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/erum/ros2/ros2_ws/build/new_interfaces/rosidl_generator_cpp__arguments.json
+rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: rosidl_adapter/new_interfaces/msg/IOTSensor.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__builder.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__builder.hpp
@@ -130,6 +130,6 @@ CMakeFiles/new_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/new_interfaces__cpp.dir/clean
 
 CMakeFiles/new_interfaces__cpp.dir/depend:
-	cd /home/erum/ros2/ros2_ws/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/src/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces /home/erum/ros2/ros2_ws/build/new_interfaces/CMakeFiles/new_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/erum/ros2_workspace/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/new_interfaces__cpp.dir/depend
 

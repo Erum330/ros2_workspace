@@ -1,5 +1,5 @@
 // generated from rosidl_generator_cpp/resource/idl__builder.hpp.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 
 // IWYU pragma: private, include "new_interfaces/msg/iot_sensor.hpp"
@@ -24,68 +24,68 @@ namespace msg
 namespace builder
 {
 
-class Init_IotSensor_temperature
+class Init_IOTSensor_humidity
 {
 public:
-  explicit Init_IotSensor_temperature(::new_interfaces::msg::IotSensor & msg)
+  explicit Init_IOTSensor_humidity(::new_interfaces::msg::IOTSensor & msg)
   : msg_(msg)
   {}
-  ::new_interfaces::msg::IotSensor temperature(::new_interfaces::msg::IotSensor::_temperature_type arg)
+  ::new_interfaces::msg::IOTSensor humidity(::new_interfaces::msg::IOTSensor::_humidity_type arg)
   {
-    msg_.temperature = std::move(arg);
+    msg_.humidity = std::move(arg);
     return std::move(msg_);
   }
 
 private:
-  ::new_interfaces::msg::IotSensor msg_;
+  ::new_interfaces::msg::IOTSensor msg_;
 };
 
-class Init_IotSensor_humidity
+class Init_IOTSensor_temperature
 {
 public:
-  explicit Init_IotSensor_humidity(::new_interfaces::msg::IotSensor & msg)
+  explicit Init_IOTSensor_temperature(::new_interfaces::msg::IOTSensor & msg)
   : msg_(msg)
   {}
-  Init_IotSensor_temperature humidity(::new_interfaces::msg::IotSensor::_humidity_type arg)
+  Init_IOTSensor_humidity temperature(::new_interfaces::msg::IOTSensor::_temperature_type arg)
   {
-    msg_.humidity = std::move(arg);
-    return Init_IotSensor_temperature(msg_);
+    msg_.temperature = std::move(arg);
+    return Init_IOTSensor_humidity(msg_);
   }
 
 private:
-  ::new_interfaces::msg::IotSensor msg_;
+  ::new_interfaces::msg::IOTSensor msg_;
 };
 
-class Init_IotSensor_id
+class Init_IOTSensor_name
 {
 public:
-  explicit Init_IotSensor_id(::new_interfaces::msg::IotSensor & msg)
+  explicit Init_IOTSensor_name(::new_interfaces::msg::IOTSensor & msg)
   : msg_(msg)
   {}
-  Init_IotSensor_humidity id(::new_interfaces::msg::IotSensor::_id_type arg)
-  {
-    msg_.id = std::move(arg);
-    return Init_IotSensor_humidity(msg_);
-  }
-
-private:
-  ::new_interfaces::msg::IotSensor msg_;
-};
-
-class Init_IotSensor_name
-{
-public:
-  Init_IotSensor_name()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
-  {}
-  Init_IotSensor_id name(::new_interfaces::msg::IotSensor::_name_type arg)
+  Init_IOTSensor_temperature name(::new_interfaces::msg::IOTSensor::_name_type arg)
   {
     msg_.name = std::move(arg);
-    return Init_IotSensor_id(msg_);
+    return Init_IOTSensor_temperature(msg_);
   }
 
 private:
-  ::new_interfaces::msg::IotSensor msg_;
+  ::new_interfaces::msg::IOTSensor msg_;
+};
+
+class Init_IOTSensor_id
+{
+public:
+  Init_IOTSensor_id()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_IOTSensor_name id(::new_interfaces::msg::IOTSensor::_id_type arg)
+  {
+    msg_.id = std::move(arg);
+    return Init_IOTSensor_name(msg_);
+  }
+
+private:
+  ::new_interfaces::msg::IOTSensor msg_;
 };
 
 }  // namespace builder
@@ -97,9 +97,9 @@ auto build();
 
 template<>
 inline
-auto build<::new_interfaces::msg::IotSensor>()
+auto build<::new_interfaces::msg::IOTSensor>()
 {
-  return new_interfaces::msg::builder::Init_IotSensor_name();
+  return new_interfaces::msg::builder::Init_IOTSensor_id();
 }
 
 }  // namespace new_interfaces

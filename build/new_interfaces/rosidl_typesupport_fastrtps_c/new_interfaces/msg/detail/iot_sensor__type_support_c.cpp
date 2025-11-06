@@ -1,5 +1,5 @@
 // generated from rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em
-// with input from new_interfaces:msg/IotSensor.idl
+// with input from new_interfaces:msg/IOTSensor.idl
 // generated code does not contain a copyright notice
 #include "new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h"
 
@@ -42,14 +42,19 @@ extern "C"
 // forward declare type support functions
 
 
-using _IotSensor__ros_msg_type = new_interfaces__msg__IotSensor;
+using _IOTSensor__ros_msg_type = new_interfaces__msg__IOTSensor;
 
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-bool cdr_serialize_new_interfaces__msg__IotSensor(
-  const new_interfaces__msg__IotSensor * ros_message,
+bool cdr_serialize_new_interfaces__msg__IOTSensor(
+  const new_interfaces__msg__IOTSensor * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Field name: id
+  {
+    cdr << ros_message->id;
+  }
+
   // Field name: name
   {
     const rosidl_runtime_c__String * str = &ros_message->name;
@@ -64,9 +69,9 @@ bool cdr_serialize_new_interfaces__msg__IotSensor(
     cdr << str->data;
   }
 
-  // Field name: id
+  // Field name: temperature
   {
-    cdr << ros_message->id;
+    cdr << ros_message->temperature;
   }
 
   // Field name: humidity
@@ -74,19 +79,19 @@ bool cdr_serialize_new_interfaces__msg__IotSensor(
     cdr << ros_message->humidity;
   }
 
-  // Field name: temperature
-  {
-    cdr << ros_message->temperature;
-  }
-
   return true;
 }
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-bool cdr_deserialize_new_interfaces__msg__IotSensor(
+bool cdr_deserialize_new_interfaces__msg__IOTSensor(
   eprosima::fastcdr::Cdr & cdr,
-  new_interfaces__msg__IotSensor * ros_message)
+  new_interfaces__msg__IOTSensor * ros_message)
 {
+  // Field name: id
+  {
+    cdr >> ros_message->id;
+  }
+
   // Field name: name
   {
     std::string tmp;
@@ -103,9 +108,9 @@ bool cdr_deserialize_new_interfaces__msg__IotSensor(
     }
   }
 
-  // Field name: id
+  // Field name: temperature
   {
-    cdr >> ros_message->id;
+    cdr >> ros_message->temperature;
   }
 
   // Field name: humidity
@@ -113,21 +118,16 @@ bool cdr_deserialize_new_interfaces__msg__IotSensor(
     cdr >> ros_message->humidity;
   }
 
-  // Field name: temperature
-  {
-    cdr >> ros_message->temperature;
-  }
-
   return true;
 }  // NOLINT(readability/fn_size)
 
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t get_serialized_size_new_interfaces__msg__IotSensor(
+size_t get_serialized_size_new_interfaces__msg__IOTSensor(
   const void * untyped_ros_message,
   size_t current_alignment)
 {
-  const _IotSensor__ros_msg_type * ros_message = static_cast<const _IotSensor__ros_msg_type *>(untyped_ros_message);
+  const _IOTSensor__ros_msg_type * ros_message = static_cast<const _IOTSensor__ros_msg_type *>(untyped_ros_message);
   (void)ros_message;
   size_t initial_alignment = current_alignment;
 
@@ -136,14 +136,21 @@ size_t get_serialized_size_new_interfaces__msg__IotSensor(
   (void)padding;
   (void)wchar_size;
 
+  // Field name: id
+  {
+    size_t item_size = sizeof(ros_message->id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
   // Field name: name
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->name.size + 1);
 
-  // Field name: id
+  // Field name: temperature
   {
-    size_t item_size = sizeof(ros_message->id);
+    size_t item_size = sizeof(ros_message->temperature);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -155,19 +162,12 @@ size_t get_serialized_size_new_interfaces__msg__IotSensor(
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
-  // Field name: temperature
-  {
-    size_t item_size = sizeof(ros_message->temperature);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
   return current_alignment - initial_alignment;
 }
 
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t max_serialized_size_new_interfaces__msg__IotSensor(
+size_t max_serialized_size_new_interfaces__msg__IOTSensor(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment)
@@ -184,6 +184,14 @@ size_t max_serialized_size_new_interfaces__msg__IotSensor(
   full_bounded = true;
   is_plain = true;
 
+  // Field name: id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
   // Field name: name
   {
     size_t array_size = 1;
@@ -196,7 +204,7 @@ size_t max_serialized_size_new_interfaces__msg__IotSensor(
     }
   }
 
-  // Field name: id
+  // Field name: temperature
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -207,17 +215,9 @@ size_t max_serialized_size_new_interfaces__msg__IotSensor(
   // Field name: humidity
   {
     size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
-
-  // Field name: temperature
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
 
@@ -226,10 +226,10 @@ size_t max_serialized_size_new_interfaces__msg__IotSensor(
     // All members are plain, and type is not empty.
     // We still need to check that the in-memory alignment
     // is the same as the CDR mandated alignment.
-    using DataType = new_interfaces__msg__IotSensor;
+    using DataType = new_interfaces__msg__IOTSensor;
     is_plain =
       (
-      offsetof(DataType, temperature) +
+      offsetof(DataType, humidity) +
       last_member_size
       ) == ret_val;
   }
@@ -237,10 +237,15 @@ size_t max_serialized_size_new_interfaces__msg__IotSensor(
 }
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-bool cdr_serialize_key_new_interfaces__msg__IotSensor(
-  const new_interfaces__msg__IotSensor * ros_message,
+bool cdr_serialize_key_new_interfaces__msg__IOTSensor(
+  const new_interfaces__msg__IOTSensor * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Field name: id
+  {
+    cdr << ros_message->id;
+  }
+
   // Field name: name
   {
     const rosidl_runtime_c__String * str = &ros_message->name;
@@ -255,9 +260,9 @@ bool cdr_serialize_key_new_interfaces__msg__IotSensor(
     cdr << str->data;
   }
 
-  // Field name: id
+  // Field name: temperature
   {
-    cdr << ros_message->id;
+    cdr << ros_message->temperature;
   }
 
   // Field name: humidity
@@ -265,20 +270,15 @@ bool cdr_serialize_key_new_interfaces__msg__IotSensor(
     cdr << ros_message->humidity;
   }
 
-  // Field name: temperature
-  {
-    cdr << ros_message->temperature;
-  }
-
   return true;
 }
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t get_serialized_size_key_new_interfaces__msg__IotSensor(
+size_t get_serialized_size_key_new_interfaces__msg__IOTSensor(
   const void * untyped_ros_message,
   size_t current_alignment)
 {
-  const _IotSensor__ros_msg_type * ros_message = static_cast<const _IotSensor__ros_msg_type *>(untyped_ros_message);
+  const _IOTSensor__ros_msg_type * ros_message = static_cast<const _IOTSensor__ros_msg_type *>(untyped_ros_message);
   (void)ros_message;
 
   size_t initial_alignment = current_alignment;
@@ -288,14 +288,21 @@ size_t get_serialized_size_key_new_interfaces__msg__IotSensor(
   (void)padding;
   (void)wchar_size;
 
+  // Field name: id
+  {
+    size_t item_size = sizeof(ros_message->id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
   // Field name: name
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->name.size + 1);
 
-  // Field name: id
+  // Field name: temperature
   {
-    size_t item_size = sizeof(ros_message->id);
+    size_t item_size = sizeof(ros_message->temperature);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -307,18 +314,11 @@ size_t get_serialized_size_key_new_interfaces__msg__IotSensor(
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
-  // Field name: temperature
-  {
-    size_t item_size = sizeof(ros_message->temperature);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
   return current_alignment - initial_alignment;
 }
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_new_interfaces
-size_t max_serialized_size_key_new_interfaces__msg__IotSensor(
+size_t max_serialized_size_key_new_interfaces__msg__IOTSensor(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment)
@@ -334,6 +334,14 @@ size_t max_serialized_size_key_new_interfaces__msg__IotSensor(
 
   full_bounded = true;
   is_plain = true;
+  // Field name: id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
   // Field name: name
   {
     size_t array_size = 1;
@@ -346,7 +354,7 @@ size_t max_serialized_size_key_new_interfaces__msg__IotSensor(
     }
   }
 
-  // Field name: id
+  // Field name: temperature
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -357,17 +365,9 @@ size_t max_serialized_size_key_new_interfaces__msg__IotSensor(
   // Field name: humidity
   {
     size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
-
-  // Field name: temperature
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -375,10 +375,10 @@ size_t max_serialized_size_key_new_interfaces__msg__IotSensor(
     // All members are plain, and type is not empty.
     // We still need to check that the in-memory alignment
     // is the same as the CDR mandated alignment.
-    using DataType = new_interfaces__msg__IotSensor;
+    using DataType = new_interfaces__msg__IOTSensor;
     is_plain =
       (
-      offsetof(DataType, temperature) +
+      offsetof(DataType, humidity) +
       last_member_size
       ) == ret_val;
   }
@@ -386,7 +386,7 @@ size_t max_serialized_size_key_new_interfaces__msg__IotSensor(
 }
 
 
-static bool _IotSensor__cdr_serialize(
+static bool _IOTSensor__cdr_serialize(
   const void * untyped_ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
@@ -394,12 +394,12 @@ static bool _IotSensor__cdr_serialize(
     fprintf(stderr, "ros message handle is null\n");
     return false;
   }
-  const new_interfaces__msg__IotSensor * ros_message = static_cast<const new_interfaces__msg__IotSensor *>(untyped_ros_message);
+  const new_interfaces__msg__IOTSensor * ros_message = static_cast<const new_interfaces__msg__IOTSensor *>(untyped_ros_message);
   (void)ros_message;
-  return cdr_serialize_new_interfaces__msg__IotSensor(ros_message, cdr);
+  return cdr_serialize_new_interfaces__msg__IOTSensor(ros_message, cdr);
 }
 
-static bool _IotSensor__cdr_deserialize(
+static bool _IOTSensor__cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   void * untyped_ros_message)
 {
@@ -407,25 +407,25 @@ static bool _IotSensor__cdr_deserialize(
     fprintf(stderr, "ros message handle is null\n");
     return false;
   }
-  new_interfaces__msg__IotSensor * ros_message = static_cast<new_interfaces__msg__IotSensor *>(untyped_ros_message);
+  new_interfaces__msg__IOTSensor * ros_message = static_cast<new_interfaces__msg__IOTSensor *>(untyped_ros_message);
   (void)ros_message;
-  return cdr_deserialize_new_interfaces__msg__IotSensor(cdr, ros_message);
+  return cdr_deserialize_new_interfaces__msg__IOTSensor(cdr, ros_message);
 }
 
-static uint32_t _IotSensor__get_serialized_size(const void * untyped_ros_message)
+static uint32_t _IOTSensor__get_serialized_size(const void * untyped_ros_message)
 {
   return static_cast<uint32_t>(
-    get_serialized_size_new_interfaces__msg__IotSensor(
+    get_serialized_size_new_interfaces__msg__IOTSensor(
       untyped_ros_message, 0));
 }
 
-static size_t _IotSensor__max_serialized_size(char & bounds_info)
+static size_t _IOTSensor__max_serialized_size(char & bounds_info)
 {
   bool full_bounded;
   bool is_plain;
   size_t ret_val;
 
-  ret_val = max_serialized_size_new_interfaces__msg__IotSensor(
+  ret_val = max_serialized_size_new_interfaces__msg__IOTSensor(
     full_bounded, is_plain, 0);
 
   bounds_info =
@@ -435,28 +435,28 @@ static size_t _IotSensor__max_serialized_size(char & bounds_info)
 }
 
 
-static message_type_support_callbacks_t __callbacks_IotSensor = {
+static message_type_support_callbacks_t __callbacks_IOTSensor = {
   "new_interfaces::msg",
-  "IotSensor",
-  _IotSensor__cdr_serialize,
-  _IotSensor__cdr_deserialize,
-  _IotSensor__get_serialized_size,
-  _IotSensor__max_serialized_size,
+  "IOTSensor",
+  _IOTSensor__cdr_serialize,
+  _IOTSensor__cdr_deserialize,
+  _IOTSensor__get_serialized_size,
+  _IOTSensor__max_serialized_size,
   nullptr
 };
 
-static rosidl_message_type_support_t _IotSensor__type_support = {
+static rosidl_message_type_support_t _IOTSensor__type_support = {
   rosidl_typesupport_fastrtps_c__identifier,
-  &__callbacks_IotSensor,
+  &__callbacks_IOTSensor,
   get_message_typesupport_handle_function,
-  &new_interfaces__msg__IotSensor__get_type_hash,
-  &new_interfaces__msg__IotSensor__get_type_description,
-  &new_interfaces__msg__IotSensor__get_type_description_sources,
+  &new_interfaces__msg__IOTSensor__get_type_hash,
+  &new_interfaces__msg__IOTSensor__get_type_description,
+  &new_interfaces__msg__IOTSensor__get_type_description_sources,
 };
 
 const rosidl_message_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, new_interfaces, msg, IotSensor)() {
-  return &_IotSensor__type_support;
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, new_interfaces, msg, IOTSensor)() {
+  return &_IOTSensor__type_support;
 }
 
 #if defined(__cplusplus)
