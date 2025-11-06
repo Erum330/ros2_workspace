@@ -1,0 +1,28 @@
+[1.300s] Invoking command in '/home/erum/ros2_workspace/src/Erum_pde4430': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data
+[1.501s] running egg_info
+[1.512s] writing ../../build/Erum_pde4430/Erum_pde4430.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../../build/Erum_pde4430/Erum_pde4430.egg-info/dependency_links.txt
+[1.514s] writing entry points to ../../build/Erum_pde4430/Erum_pde4430.egg-info/entry_points.txt
+[1.514s] writing requirements to ../../build/Erum_pde4430/Erum_pde4430.egg-info/requires.txt
+[1.516s] writing top-level names to ../../build/Erum_pde4430/Erum_pde4430.egg-info/top_level.txt
+[1.541s] reading manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+[1.543s] writing manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+[1.544s] running build
+[1.544s] running build_py
+[1.544s] copying Erum_pde4430/straightmove.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430
+[1.545s] copying Erum_pde4430/circular_move.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430
+[1.548s] running install
+[1.551s] running install_lib
+[1.563s] copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/straightmove.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430
+[1.564s] copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/circular_move.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430
+[1.565s] byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/straightmove.py to straightmove.cpython-312.pyc
+[1.566s] byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/circular_move.py to circular_move.cpython-312.pyc
+[1.567s] running install_data
+[1.568s] running install_egg_info
+[1.581s] removing '/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info' (and everything under it)
+[1.585s] Copying ../../build/Erum_pde4430/Erum_pde4430.egg-info to /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info
+[1.587s] running install_scripts
+[1.678s] Installing circular_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[1.678s] Installing straightmove script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[1.679s] writing list of installed files to '/home/erum/ros2_workspace/build/Erum_pde4430/install.log'
+[1.718s] Invoked command in '/home/erum/ros2_workspace/src/Erum_pde4430' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data

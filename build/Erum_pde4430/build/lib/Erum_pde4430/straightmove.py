@@ -12,7 +12,7 @@ class StraightMover(Node):
 
     def move_straight(self):
         msg = Twist()
-        msg.linear.x = 2.0   # speed forward
+        msg.linear.x = 1.0   # speed forward
         msg.angular.z = 0.0  # no rotation
         self.publisher_.publish(msg)
         self.get_logger().info('Moving straight...')

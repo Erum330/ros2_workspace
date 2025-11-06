@@ -1,2 +1,3 @@
 [console_scripts]
+circular_move = Erum_pde4430.circular_move:main
 straightmove = Erum_pde4430.straightmove:main

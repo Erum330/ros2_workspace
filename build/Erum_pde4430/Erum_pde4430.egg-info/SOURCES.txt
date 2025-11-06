@@ -10,6 +10,7 @@ setup.py
 ../../build/Erum_pde4430/Erum_pde4430.egg-info/top_level.txt
 ../../build/Erum_pde4430/Erum_pde4430.egg-info/zip-safe
 Erum_pde4430/__init__.py
+Erum_pde4430/circular_move.py
 Erum_pde4430/straightmove.py
 resource/Erum_pde4430
 test/test_copyright.py
