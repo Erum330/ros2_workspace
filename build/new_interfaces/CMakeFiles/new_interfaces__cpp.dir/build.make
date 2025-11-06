@@ -71,6 +71,11 @@ CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/detail/i
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__struct.hpp
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__traits.hpp
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__type_support.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/add_two_ints.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__builder.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,10 @@ rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/ros
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: rosidl_adapter/new_interfaces/msg/IOTSensor.idl
+rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: rosidl_adapter/new_interfaces/srv/AddTwoInts.idl
+rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -108,6 +117,21 @@ rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__traits.hpp: rosidl_ge
 rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__type_support.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__type_support.hpp
 
+rosidl_generator_cpp/new_interfaces/srv/add_two_ints.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/add_two_ints.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__builder.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__builder.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp
+
 rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -118,6 +142,11 @@ new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__
 new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__type_support.hpp
 new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
 new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/add_two_ints.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__builder.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp
 new_interfaces__cpp: CMakeFiles/new_interfaces__cpp.dir/build.make
 .PHONY : new_interfaces__cpp
 

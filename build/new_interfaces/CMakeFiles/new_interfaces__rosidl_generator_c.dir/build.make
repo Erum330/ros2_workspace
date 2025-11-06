@@ -89,6 +89,10 @@ rosidl_generator_c/new_interfaces/msg/iot_sensor.h: /opt/ros/jazzy/share/rosidl_
 rosidl_generator_c/new_interfaces/msg/iot_sensor.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/new_interfaces/msg/iot_sensor.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/new_interfaces/msg/iot_sensor.h: rosidl_adapter/new_interfaces/msg/IOTSensor.idl
+rosidl_generator_c/new_interfaces/msg/iot_sensor.h: rosidl_adapter/new_interfaces/srv/AddTwoInts.idl
+rosidl_generator_c/new_interfaces/msg/iot_sensor.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_c/new_interfaces/msg/iot_sensor.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/new_interfaces/msg/iot_sensor.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c__arguments.json
 
@@ -101,6 +105,18 @@ rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__struct.h: rosidl_genera
 rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.h: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.h
 
+rosidl_generator_c/new_interfaces/srv/add_two_ints.h: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/srv/add_two_ints.h
+
+rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.h: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.h
+
+rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__struct.h: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__struct.h
+
+rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.h: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.h
+
 rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c
 
@@ -109,6 +125,15 @@ rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__functions.c: rosidl_gen
 
 rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c
+
+rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c
+
+rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c
+
+rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c
 
 CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c.o: CMakeFiles/new_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c.o: rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c
@@ -152,11 +177,56 @@ CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfa
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c -o CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c.s
 
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o: CMakeFiles/new_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o: CMakeFiles/new_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o -MF CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o.d -o CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o -c /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c > CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.i
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c -o CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.s
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o: CMakeFiles/new_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o: CMakeFiles/new_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o -MF CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o.d -o CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o -c /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c > CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.i
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c -o CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.s
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o: CMakeFiles/new_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o: CMakeFiles/new_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o -MF CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o.d -o CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o -c /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c > CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.i
+
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c -o CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s
+
 # Object files for target new_interfaces__rosidl_generator_c
 new_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c.o" \
 "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__functions.c.o" \
-"CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c.o"
+"CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c.o" \
+"CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o" \
+"CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o" \
+"CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o"
 
 # External object files for target new_interfaces__rosidl_generator_c
 new_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -164,11 +234,16 @@ new_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c.o
 libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__functions.c.o
 libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c.o
+libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c.o
+libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o
+libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o
 libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make
+libnew_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
+libnew_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libnew_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libnew_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libnew_interfaces__rosidl_generator_c.so: CMakeFiles/new_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libnew_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libnew_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/new_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -186,6 +261,13 @@ CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new
 CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.c
 CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__type_support.h
 CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/msg/iot_sensor.h
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/srv/add_two_ints.h
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__description.c
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.h
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__struct.h
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c
+CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.h
 	cd /home/erum/ros2_workspace/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/new_interfaces__rosidl_generator_c.dir/depend
 

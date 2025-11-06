@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/new_interfaces__rosidl_generator_type_description"
   "rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json"
+  "rosidl_generator_type_description/new_interfaces/srv/AddTwoInts.json"
 )
 
 # Per-language clean rules from dependency scanning.

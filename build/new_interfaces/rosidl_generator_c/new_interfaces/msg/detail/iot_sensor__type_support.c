@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "new_interfaces/msg/detail/iot_sensor__functions.h"
-#include "new_interfaces/msg/detail/iot_sensor__struct.h"
 #include "new_interfaces/msg/detail/iot_sensor__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "new_interfaces/msg/detail/iot_sensor__functions.h"
+#include "new_interfaces/msg/detail/iot_sensor__struct.h"
 
 #ifdef __cplusplus
 extern "C"

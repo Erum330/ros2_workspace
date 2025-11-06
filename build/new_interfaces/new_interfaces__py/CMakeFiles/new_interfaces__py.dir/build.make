@@ -70,8 +70,11 @@ include /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeF
 /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.c
 /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/msg/_iot_sensor.py
+/home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/srv/_add_two_ints.py
 /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/msg/__init__.py
+/home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/srv/__init__.py
 /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/msg/_iot_sensor_s.c
+/home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py: rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c
 
 rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,10 @@ rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/new_interfaces/msg/IOTSensor.idl
+rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/new_interfaces/srv/AddTwoInts.idl
+rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +106,20 @@ rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.c: 
 rosidl_generator_py/new_interfaces/msg/_iot_sensor.py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/new_interfaces/msg/_iot_sensor.py
 
+rosidl_generator_py/new_interfaces/srv/_add_two_ints.py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/new_interfaces/srv/_add_two_ints.py
+
 rosidl_generator_py/new_interfaces/msg/__init__.py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/new_interfaces/msg/__init__.py
 
+rosidl_generator_py/new_interfaces/srv/__init__.py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/new_interfaces/srv/__init__.py
+
 rosidl_generator_py/new_interfaces/msg/_iot_sensor_s.c: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/new_interfaces/msg/_iot_sensor_s.c
+
+rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c
 
 new_interfaces__py: /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py
 new_interfaces__py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.c
@@ -112,6 +128,9 @@ new_interfaces__py: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosi
 new_interfaces__py: rosidl_generator_py/new_interfaces/msg/__init__.py
 new_interfaces__py: rosidl_generator_py/new_interfaces/msg/_iot_sensor.py
 new_interfaces__py: rosidl_generator_py/new_interfaces/msg/_iot_sensor_s.c
+new_interfaces__py: rosidl_generator_py/new_interfaces/srv/__init__.py
+new_interfaces__py: rosidl_generator_py/new_interfaces/srv/_add_two_ints.py
+new_interfaces__py: rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c
 new_interfaces__py: /home/erum/ros2_workspace/build/new_interfaces/new_interfaces__py/CMakeFiles/new_interfaces__py.dir/build.make
 .PHONY : new_interfaces__py
 

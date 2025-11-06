@@ -1,6 +1,7 @@
 {
   "package_name": "new_interfaces",
   "non_idl_tuples": [
-    "/home/erum/ros2_workspace/src/new_interfaces:msg/IOTSensor.msg"
+    "/home/erum/ros2_workspace/src/new_interfaces:msg/IOTSensor.msg",
+    "/home/erum/ros2_workspace/src/new_interfaces:srv/AddTwoInts.srv"
   ]
 }

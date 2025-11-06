@@ -17,6 +17,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__traits.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
   "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/detail/iot_sensor__type_support.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
   "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
+  "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/srv/add_two_ints.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
+  "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__builder.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
+  "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
+  "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
+  "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp" "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp"
   )
 
 

@@ -1,2 +1,4 @@
 msg/IOTSensor.idl
 msg/IOTSensor.msg
+srv/AddTwoInts.idl
+srv/AddTwoInts.srv

@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.cpp.o"
   "CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.cpp.o.d"
+  "CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.cpp.o"
+  "CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.cpp.o.d"
   "libnew_interfaces__rosidl_typesupport_c.pdb"
   "libnew_interfaces__rosidl_typesupport_c.so"
   "rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.cpp"
+  "rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.
