@@ -30,7 +30,7 @@ setup(
             'roomba_cleaner = Erum_pde4430.roomba_cleaner:main',
             '4bots = Erum_pde4430.4bots:main',
             'userinput = Erum_pde4430.userinput:main',
-
+            'user_coordinates = Erum_pde4430.user_coordinates:main',
 
 
         ],
