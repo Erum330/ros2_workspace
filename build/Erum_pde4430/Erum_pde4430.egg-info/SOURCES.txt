@@ -1,4 +1,3 @@
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -13,7 +12,11 @@ Erum_pde4430/__init__.py
 Erum_pde4430/circular_move.py
 Erum_pde4430/figure8_move.py
 Erum_pde4430/straightmove.py
+Erum_pde4430.egg-info/PKG-INFO
+Erum_pde4430.egg-info/SOURCES.txt
+Erum_pde4430.egg-info/dependency_links.txt
+Erum_pde4430.egg-info/entry_points.txt
+Erum_pde4430.egg-info/requires.txt
+Erum_pde4430.egg-info/top_level.txt
+Erum_pde4430.egg-info/zip-safe
 resource/Erum_pde4430
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

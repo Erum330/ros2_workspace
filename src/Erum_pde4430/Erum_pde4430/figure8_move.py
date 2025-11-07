@@ -9,7 +9,7 @@ import math
 # ==== CONFIG: tune these if needed ====
 CENTER_X = 5.5
 CENTER_Y = 5.5
-A = 1.8             # horizontal half-width (X variation)
+A = 3.0             # horizontal half-width (X variation)
 B = 2.0             # vertical half-height (Y variation)
 LOOP_RATE =    20.0    # Hz
 SPEED_SCALE = 1.2   # base multiplier for linear command
