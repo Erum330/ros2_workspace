@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "new_interfaces/srv/detail/add_two_ints__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "new_interfaces/srv/detail/add_two_ints__functions.h"
+#include "new_interfaces/srv/detail/add_two_ints__type_support.h"
 #include "new_interfaces/srv/detail/add_two_ints__struct.h"
 
 #ifdef __cplusplus

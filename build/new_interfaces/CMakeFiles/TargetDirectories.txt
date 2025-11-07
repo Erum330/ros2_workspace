@@ -10,7 +10,7 @@
 /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir
 /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir
 /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir
-/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/ament_cmake_python_symlink_new_interfaces.dir
+/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/ament_cmake_python_copy_new_interfaces.dir
 /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/ament_cmake_python_build_new_interfaces_egg.dir
 /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_generator_py.dir
 /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces_s__rosidl_typesupport_fastrtps_c.dir

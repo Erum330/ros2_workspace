@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.001230] (Erum_pde4430) JobQueued: {'identifier': 'Erum_pde4430', 'dependencies': OrderedDict()}
+[0.004434] (my_first_pkg) JobQueued: {'identifier': 'my_first_pkg', 'dependencies': OrderedDict()}
+[0.004518] (new_interfaces) JobQueued: {'identifier': 'new_interfaces', 'dependencies': OrderedDict()}
+[0.004539] (add_two_ints_pkg) JobQueued: {'identifier': 'add_two_ints_pkg', 'dependencies': OrderedDict({'new_interfaces': '/home/erum/ros2_workspace/install/new_interfaces'})}
+[0.007445] (new_interfaces) JobStarted: {'identifier': 'new_interfaces'}
+[0.032976] (Erum_pde4430) JobStarted: {'identifier': 'Erum_pde4430'}
+[0.065050] (new_interfaces) JobProgress: {'identifier': 'new_interfaces', 'progress': 'cmake'}
+[0.070520] (new_interfaces) JobProgress: {'identifier': 'new_interfaces', 'progress': 'build'}
+[0.072393] (new_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erum/ros2_workspace/build/new_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/erum/ros2_workspace/build/new_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/erum/ros2_workspace/install/new_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2515', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/erum/ros2_workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2481,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f68d99f3_63b2_4e71_b298_499be39a4c66', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CTOBF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.435', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/new_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/erum/ros2_workspace/install/new_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy'}), 'shell': False}
+[0.104095] (-) TimerEvent: {}
+[0.205177] (-) TimerEvent: {}
+[0.305622] (-) TimerEvent: {}
+[0.406639] (-) TimerEvent: {}
+[0.509321] (-) TimerEvent: {}
+[0.609892] (-) TimerEvent: {}
+[0.710494] (-) TimerEvent: {}
+[0.811650] (-) TimerEvent: {}
+[0.912242] (-) TimerEvent: {}
+[0.930077] (new_interfaces) StdoutLine: {'line': b'[  2%] Built target new_interfaces__rosidl_generator_type_description\n'}
+[0.991935] (new_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_new_interfaces\n'}
+[1.012386] (-) TimerEvent: {}
+[1.071526] (new_interfaces) StdoutLine: {'line': b'[ 20%] Built target new_interfaces__rosidl_generator_c\n'}
+[1.112505] (-) TimerEvent: {}
+[1.115075] (new_interfaces) StdoutLine: {'line': b'[ 22%] Built target new_interfaces__cpp\n'}
+[1.212644] (-) TimerEvent: {}
+[1.313355] (-) TimerEvent: {}
+[1.414453] (-) TimerEvent: {}
+[1.516280] (-) TimerEvent: {}
+[1.616684] (-) TimerEvent: {}
+[1.717024] (-) TimerEvent: {}
+[1.819197] (-) TimerEvent: {}
+[1.925824] (-) TimerEvent: {}
+[2.028822] (-) TimerEvent: {}
+[2.098234] (new_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.128968] (-) TimerEvent: {}
+[2.186137] (new_interfaces) StdoutLine: {'line': b'writing new_interfaces.egg-info/PKG-INFO\n'}
+[2.191348] (new_interfaces) StdoutLine: {'line': b'writing dependency_links to new_interfaces.egg-info/dependency_links.txt\n'}
+[2.192717] (new_interfaces) StdoutLine: {'line': b'writing top-level names to new_interfaces.egg-info/top_level.txt\n'}
+[2.230048] (-) TimerEvent: {}
+[2.338813] (-) TimerEvent: {}
+[2.367897] (new_interfaces) StdoutLine: {'line': b"reading manifest file 'new_interfaces.egg-info/SOURCES.txt'\n"}
+[2.370467] (new_interfaces) StdoutLine: {'line': b"writing manifest file 'new_interfaces.egg-info/SOURCES.txt'\n"}
+[2.408670] (new_interfaces) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_new_interfaces_egg\n'}
+[2.438944] (-) TimerEvent: {}
+[2.502163] (new_interfaces) StdoutLine: {'line': b'[ 31%] Built target new_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.539886] (-) TimerEvent: {}
+[2.640331] (-) TimerEvent: {}
+[2.715030] (new_interfaces) StdoutLine: {'line': b'[ 40%] Built target new_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.740441] (-) TimerEvent: {}
+[2.842338] (new_interfaces) StdoutLine: {'line': b'[ 50%] Built target new_interfaces__rosidl_typesupport_c\n'}
+[2.842571] (-) TimerEvent: {}
+[2.945009] (-) TimerEvent: {}
+[3.006986] (new_interfaces) StdoutLine: {'line': b'[ 59%] Built target new_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.045813] (-) TimerEvent: {}
+[3.136867] (new_interfaces) StdoutLine: {'line': b'[ 68%] Built target new_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.148024] (-) TimerEvent: {}
+[3.251748] (-) TimerEvent: {}
+[3.355369] (-) TimerEvent: {}
+[3.455979] (-) TimerEvent: {}
+[3.556602] (-) TimerEvent: {}
+[3.665072] (-) TimerEvent: {}
+[3.682357] (new_interfaces) StdoutLine: {'line': b'[ 77%] Built target new_interfaces__rosidl_typesupport_cpp\n'}
+[3.765140] (-) TimerEvent: {}
+[3.870716] (-) TimerEvent: {}
+[3.900972] (new_interfaces) StdoutLine: {'line': b'[ 77%] Built target new_interfaces\n'}
+[3.970849] (-) TimerEvent: {}
+[4.002087] (Erum_pde4430) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/Erum_pde4430', 'build', '--build-base', '/home/erum/ros2_workspace/build/Erum_pde4430/build', 'install', '--record', '/home/erum/ros2_workspace/build/Erum_pde4430/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/erum/ros2_workspace/src/Erum_pde4430', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/erum/ros2_workspace/install/new_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2515', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/erum/ros2_workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2481,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f68d99f3_63b2_4e71_b298_499be39a4c66', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CTOBF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.435', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/Erum_pde4430', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/erum/ros2_workspace/install/new_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.032185] (new_interfaces) StdoutLine: {'line': b'[ 79%] Built target new_interfaces__py\n'}
+[4.071122] (-) TimerEvent: {}
+[4.174089] (-) TimerEvent: {}
+[4.277425] (-) TimerEvent: {}
+[4.303424] (new_interfaces) StdoutLine: {'line': b'[ 86%] Built target new_interfaces__rosidl_generator_py\n'}
+[4.377647] (-) TimerEvent: {}
+[4.438108] (new_interfaces) StdoutLine: {'line': b'[ 90%] Built target new_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[4.477778] (-) TimerEvent: {}
+[4.554245] (new_interfaces) StdoutLine: {'line': b'[ 95%] Built target new_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[4.579825] (-) TimerEvent: {}
+[4.652987] (new_interfaces) StdoutLine: {'line': b'[100%] Built target new_interfaces_s__rosidl_typesupport_c\n'}
+[4.680237] (-) TimerEvent: {}
+[4.736283] (new_interfaces) CommandEnded: {'returncode': 0}
+[4.750524] (new_interfaces) JobProgress: {'identifier': 'new_interfaces', 'progress': 'install'}
+[4.782862] (-) TimerEvent: {}
+[4.818635] (new_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erum/ros2_workspace/build/new_interfaces'], 'cwd': '/home/erum/ros2_workspace/build/new_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/erum/ros2_workspace/install/new_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2515', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/erum/ros2_workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2481,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f68d99f3_63b2_4e71_b298_499be39a4c66', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CTOBF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.435', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/new_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/erum/ros2_workspace/install/new_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy'}), 'shell': False}
+[4.884268] (-) TimerEvent: {}
+[4.911256] (new_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.930129] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/rosidl_interfaces/new_interfaces\n'}
+[4.933881] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/msg/IOTSensor.json\n'}
+[4.934118] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/srv/AddTwoInts.json\n'}
+[4.934350] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces\n'}
+[4.934608] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv\n'}
+[4.935824] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/add_two_ints.h\n'}
+[4.936556] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail\n'}
+[4.941226] (Erum_pde4430) StdoutLine: {'line': b'running egg_info\n'}
+[4.941527] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__functions.h\n'}
+[4.941623] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__description.c\n'}
+[4.941696] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__functions.c\n'}
+[4.941797] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.h\n'}
+[4.941877] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__struct.h\n'}
+[4.941966] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[4.947153] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg\n'}
+[4.952924] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.953452] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/iot_sensor.h\n'}
+[4.953709] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail\n'}
+[4.953975] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__functions.c\n'}
+[4.954129] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.h\n'}
+[4.954243] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__struct.h\n'}
+[4.954358] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.c\n'}
+[4.958820] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__description.c\n'}
+[4.959090] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__functions.h\n'}
+[4.962311] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/library_path.sh\n'}
+[4.962589] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/library_path.dsv\n'}
+[4.968201] (Erum_pde4430) StdoutLine: {'line': b'writing ../../build/Erum_pde4430/Erum_pde4430.egg-info/PKG-INFO\n'}
+[4.970011] (Erum_pde4430) StdoutLine: {'line': b'writing dependency_links to ../../build/Erum_pde4430/Erum_pde4430.egg-info/dependency_links.txt\n'}
+[4.971043] (Erum_pde4430) StdoutLine: {'line': b'writing entry points to ../../build/Erum_pde4430/Erum_pde4430.egg-info/entry_points.txt\n'}
+[4.971215] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_generator_c.so\n'}
+[4.971859] (Erum_pde4430) StdoutLine: {'line': b'writing requirements to ../../build/Erum_pde4430/Erum_pde4430.egg-info/requires.txt\n'}
+[4.972514] (Erum_pde4430) StdoutLine: {'line': b'writing top-level names to ../../build/Erum_pde4430/Erum_pde4430.egg-info/top_level.txt\n'}
+[4.975223] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces\n'}
+[4.975477] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv\n'}
+[4.975948] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail\n'}
+[4.976228] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[4.976335] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg\n'}
+[4.976437] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.976512] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail\n'}
+[4.980971] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[4.981144] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.981225] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces\n'}
+[4.981300] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv\n'}
+[4.981373] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail\n'}
+[4.981446] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[4.981519] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[4.982686] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg\n'}
+[4.983059] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.983156] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail\n'}
+[4.983331] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_introspection_c.h\n'}
+[4.983422] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.c\n'}
+[4.984361] (-) TimerEvent: {}
+[4.988934] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.989395] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_c.so\n'}
+[4.990934] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces\n'}
+[4.991037] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv\n'}
+[4.991125] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/add_two_ints.hpp\n'}
+[4.991211] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail\n'}
+[4.991283] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__struct.hpp\n'}
+[4.991352] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.hpp\n'}
+[4.991421] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__traits.hpp\n'}
+[4.991495] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__builder.hpp\n'}
+[4.991638] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg\n'}
+[4.991713] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/iot_sensor.hpp\n'}
+[4.991823] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.997965] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail\n'}
+[4.998259] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__builder.hpp\n'}
+[4.998390] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.hpp\n'}
+[4.998508] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__struct.hpp\n'}
+[4.998624] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__traits.hpp\n'}
+[4.998743] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces\n'}
+[5.001319] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv\n'}
+[5.001475] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail\n'}
+[5.001601] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.001724] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/dds_fastrtps\n'}
+[5.002508] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg\n'}
+[5.002615] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail\n'}
+[5.002700] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/dds_fastrtps\n'}
+[5.005923] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.006085] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.006166] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.006244] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces\n'}
+[5.006316] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv\n'}
+[5.006387] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail\n'}
+[5.006460] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.cpp\n'}
+[5.014513] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.014603] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg\n'}
+[5.014729] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail\n'}
+[5.014824] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.cpp\n'}
+[5.014899] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.014989] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.015061] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.015133] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/pythonpath.sh\n'}
+[5.015205] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/pythonpath.dsv\n'}
+[5.015305] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info\n'}
+[5.015387] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.015455] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.022804] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.023616] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.024201] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces\n'}
+[5.024446] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.024553] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv\n'}
+[5.024672] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv/_add_two_ints_s.c\n'}
+[5.025070] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv/__init__.py\n'}
+[5.025186] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv/_add_two_ints.py\n'}
+[5.025296] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/__init__.py\n'}
+[5.025372] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.025460] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.025546] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.025626] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_c.so\n'}
+[5.025696] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg\n'}
+[5.025778] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg/_iot_sensor.py\n'}
+[5.026909] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg/__init__.py\n'}
+[5.027067] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg/_iot_sensor_s.c\n'}
+[5.027154] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.085827] (-) TimerEvent: {}
+[5.107886] (Erum_pde4430) StdoutLine: {'line': b"reading manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'\n"}
+[5.109059] (Erum_pde4430) StdoutLine: {'line': b"writing manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'\n"}
+[5.111859] (Erum_pde4430) StdoutLine: {'line': b'running build\n'}
+[5.112010] (Erum_pde4430) StdoutLine: {'line': b'running build_py\n'}
+[5.112134] (Erum_pde4430) StdoutLine: {'line': b'copying Erum_pde4430/roomba_cleaner.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430\n'}
+[5.118866] (Erum_pde4430) StdoutLine: {'line': b'running install\n'}
+[5.135610] (Erum_pde4430) StdoutLine: {'line': b'running install_lib\n'}
+[5.188589] (-) TimerEvent: {}
+[5.224316] (new_interfaces) StdoutLine: {'line': b"Listing '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces'...\n"}
+[5.224540] (new_interfaces) StdoutLine: {'line': b"Listing '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg'...\n"}
+[5.224620] (new_interfaces) StdoutLine: {'line': b"Listing '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv'...\n"}
+[5.224958] (Erum_pde4430) StdoutLine: {'line': b'copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/roomba_cleaner.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430\n'}
+[5.230563] (Erum_pde4430) StdoutLine: {'line': b'byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/roomba_cleaner.py to roomba_cleaner.cpython-312.pyc\n'}
+[5.244916] (Erum_pde4430) StdoutLine: {'line': b'running install_data\n'}
+[5.245120] (Erum_pde4430) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.261807] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.269122] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.276698] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_c.so\n'}
+[5.280471] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_generator_py.so\n'}
+[5.281047] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/msg/IOTSensor.idl\n'}
+[5.281253] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/srv/AddTwoInts.idl\n'}
+[5.291875] (-) TimerEvent: {}
+[5.306892] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/msg/IOTSensor.msg\n'}
+[5.307236] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/srv/AddTwoInts.srv\n'}
+[5.307318] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/package_run_dependencies/new_interfaces\n'}
+[5.307415] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/parent_prefix_path/new_interfaces\n'}
+[5.307489] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/ament_prefix_path.sh\n'}
+[5.307563] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.307634] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/path.sh\n'}
+[5.307703] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/path.dsv\n'}
+[5.307815] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.bash\n'}
+[5.307893] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.sh\n'}
+[5.307964] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.zsh\n'}
+[5.308034] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.dsv\n'}
+[5.308110] (new_interfaces) StdoutLine: {'line': b'-- Installing: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.dsv\n'}
+[5.312514] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/packages/new_interfaces\n'}
+[5.315094] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.315446] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.315606] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.321942] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.322203] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.322296] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.322388] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.322461] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.322593] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.322742] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.322874] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.322946] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.323039] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.323369] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.327642] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.328345] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.328530] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.328690] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.332200] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.332437] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.332515] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.332589] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.332662] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.332736] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.335803] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfacesConfig.cmake\n'}
+[5.336050] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfacesConfig-version.cmake\n'}
+[5.336129] (new_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.xml\n'}
+[5.354835] (new_interfaces) CommandEnded: {'returncode': 0}
+[5.355723] (Erum_pde4430) StdoutLine: {'line': b"removing '/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.376206] (Erum_pde4430) StdoutLine: {'line': b'Copying ../../build/Erum_pde4430/Erum_pde4430.egg-info to /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info\n'}
+[5.380584] (Erum_pde4430) StdoutLine: {'line': b'running install_scripts\n'}
+[5.391988] (-) TimerEvent: {}
+[5.449799] (new_interfaces) JobEnded: {'identifier': 'new_interfaces', 'rc': 0}
+[5.450770] (my_first_pkg) JobStarted: {'identifier': 'my_first_pkg'}
+[5.492120] (-) TimerEvent: {}
+[5.596811] (-) TimerEvent: {}
+[5.697125] (-) TimerEvent: {}
+[5.797559] (-) TimerEvent: {}
+[5.850775] (Erum_pde4430) StdoutLine: {'line': b'Installing circular_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430\n'}
+[5.852628] (Erum_pde4430) StdoutLine: {'line': b'Installing figure8_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430\n'}
+[5.854350] (Erum_pde4430) StdoutLine: {'line': b'Installing roomba_cleaner script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430\n'}
+[5.856242] (Erum_pde4430) StdoutLine: {'line': b'Installing straightmove script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430\n'}
+[5.859156] (Erum_pde4430) StdoutLine: {'line': b"writing list of installed files to '/home/erum/ros2_workspace/build/Erum_pde4430/install.log'\n"}
+[5.901945] (-) TimerEvent: {}
+[5.929875] (Erum_pde4430) CommandEnded: {'returncode': 0}
+[5.945646] (Erum_pde4430) JobEnded: {'identifier': 'Erum_pde4430', 'rc': 0}
+[5.950150] (add_two_ints_pkg) JobStarted: {'identifier': 'add_two_ints_pkg'}
+[6.002136] (-) TimerEvent: {}
+[6.105813] (-) TimerEvent: {}
+[6.206315] (-) TimerEvent: {}
+[6.307826] (-) TimerEvent: {}
+[6.409814] (-) TimerEvent: {}
+[6.510221] (-) TimerEvent: {}
+[6.610875] (-) TimerEvent: {}
+[6.711669] (-) TimerEvent: {}
+[6.814427] (-) TimerEvent: {}
+[6.914869] (-) TimerEvent: {}
+[7.015884] (-) TimerEvent: {}
+[7.118819] (-) TimerEvent: {}
+[7.219130] (-) TimerEvent: {}
+[7.319734] (-) TimerEvent: {}
+[7.422819] (-) TimerEvent: {}
+[7.523601] (-) TimerEvent: {}
+[7.626740] (-) TimerEvent: {}
+[7.728332] (-) TimerEvent: {}
+[7.841257] (-) TimerEvent: {}
+[7.950584] (-) TimerEvent: {}
+[8.070663] (my_first_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_pkg', 'build', '--build-base', '/home/erum/ros2_workspace/build/my_first_pkg/build', 'install', '--record', '/home/erum/ros2_workspace/build/my_first_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/erum/ros2_workspace/src/my_first_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/erum/ros2_workspace/install/new_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2515', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/erum/ros2_workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2481,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f68d99f3_63b2_4e71_b298_499be39a4c66', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CTOBF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.435', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/my_first_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/erum/ros2_workspace/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/erum/ros2_workspace/install/new_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.099056] (-) TimerEvent: {}
+[8.201492] (-) TimerEvent: {}
+[8.304685] (-) TimerEvent: {}
+[8.408909] (-) TimerEvent: {}
+[8.516713] (-) TimerEvent: {}
+[8.621831] (-) TimerEvent: {}
+[8.726689] (-) TimerEvent: {}
+[8.829143] (-) TimerEvent: {}
+[8.929565] (-) TimerEvent: {}
+[9.033870] (-) TimerEvent: {}
+[9.139952] (-) TimerEvent: {}
+[9.242163] (-) TimerEvent: {}
+[9.342903] (-) TimerEvent: {}
+[9.451477] (-) TimerEvent: {}
+[9.556969] (-) TimerEvent: {}
+[9.657958] (-) TimerEvent: {}
+[9.725463] (add_two_ints_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/add_two_ints_pkg', 'build', '--build-base', '/home/erum/ros2_workspace/build/add_two_ints_pkg/build', 'install', '--record', '/home/erum/ros2_workspace/build/add_two_ints_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/erum/ros2_workspace/src/add_two_ints_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'erum', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/erum/ros2_workspace/install/new_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/erum', 'OLDPWD': '/home/erum', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2515', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/erum/ros2_workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'erum', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'erum', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/erum-VMware-Virtual-Platform:@/tmp/.ICE-unix/2481,unix/erum-VMware-Virtual-Platform:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f68d99f3_63b2_4e71_b298_499be39a4c66', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CTOBF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.435', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/erum/ros2_workspace/build/add_two_ints_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/erum/ros2_workspace/build/add_two_ints_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/erum/ros2_workspace/install/new_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[9.759888] (-) TimerEvent: {}
+[9.862357] (-) TimerEvent: {}
+[9.965238] (-) TimerEvent: {}
+[10.068841] (-) TimerEvent: {}
+[10.157731] (add_two_ints_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.168959] (-) TimerEvent: {}
+[10.186663] (add_two_ints_pkg) StdoutLine: {'line': b'writing ../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info/PKG-INFO\n'}
+[10.191454] (add_two_ints_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info/dependency_links.txt\n'}
+[10.191664] (add_two_ints_pkg) StdoutLine: {'line': b'writing entry points to ../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info/entry_points.txt\n'}
+[10.191748] (add_two_ints_pkg) StdoutLine: {'line': b'writing requirements to ../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info/requires.txt\n'}
+[10.191838] (add_two_ints_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info/top_level.txt\n'}
+[10.246197] (add_two_ints_pkg) StdoutLine: {'line': b"reading manifest file '../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info/SOURCES.txt'\n"}
+[10.246655] (add_two_ints_pkg) StdoutLine: {'line': b"writing manifest file '../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info/SOURCES.txt'\n"}
+[10.246771] (add_two_ints_pkg) StdoutLine: {'line': b'running build\n'}
+[10.246848] (add_two_ints_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.250796] (add_two_ints_pkg) StdoutLine: {'line': b'running install\n'}
+[10.256098] (add_two_ints_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.269858] (-) TimerEvent: {}
+[10.314553] (add_two_ints_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.316491] (add_two_ints_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.370026] (-) TimerEvent: {}
+[10.410578] (add_two_ints_pkg) StdoutLine: {'line': b"removing '/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages/add_two_ints_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[10.416193] (add_two_ints_pkg) StdoutLine: {'line': b'Copying ../../build/add_two_ints_pkg/add_two_ints_pkg.egg-info to /home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages/add_two_ints_pkg-0.0.0-py3.12.egg-info\n'}
+[10.422818] (add_two_ints_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.471985] (-) TimerEvent: {}
+[10.572895] (-) TimerEvent: {}
+[10.584491] (my_first_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.640315] (my_first_pkg) StdoutLine: {'line': b'writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO\n'}
+[10.644573] (my_first_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt\n'}
+[10.648266] (my_first_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt\n'}
+[10.648874] (my_first_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt\n'}
+[10.650069] (my_first_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt\n'}
+[10.673069] (-) TimerEvent: {}
+[10.769786] (my_first_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[10.773073] (my_first_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[10.773250] (-) TimerEvent: {}
+[10.779600] (my_first_pkg) StdoutLine: {'line': b'running build\n'}
+[10.779851] (my_first_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.779939] (my_first_pkg) StdoutLine: {'line': b'running install\n'}
+[10.792435] (my_first_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.825776] (my_first_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.826306] (my_first_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.851960] (my_first_pkg) StdoutLine: {'line': b"removing '/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[10.860238] (my_first_pkg) StdoutLine: {'line': b'Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info\n'}
+[10.861986] (my_first_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.873375] (-) TimerEvent: {}
+[10.974834] (-) TimerEvent: {}
+[11.007426] (add_two_ints_pkg) StdoutLine: {'line': b'Installing minimal_client script to /home/erum/ros2_workspace/install/add_two_ints_pkg/lib/add_two_ints_pkg\n'}
+[11.011685] (add_two_ints_pkg) StdoutLine: {'line': b'Installing minimal_server script to /home/erum/ros2_workspace/install/add_two_ints_pkg/lib/add_two_ints_pkg\n'}
+[11.013814] (add_two_ints_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/erum/ros2_workspace/build/add_two_ints_pkg/install.log'\n"}
+[11.076818] (-) TimerEvent: {}
+[11.099176] (add_two_ints_pkg) CommandEnded: {'returncode': 0}
+[11.123992] (add_two_ints_pkg) JobEnded: {'identifier': 'add_two_ints_pkg', 'rc': 0}
+[11.176932] (-) TimerEvent: {}
+[11.187148] (my_first_pkg) StdoutLine: {'line': b'Installing minimal_publisher script to /home/erum/ros2_workspace/install/my_first_pkg/lib/my_first_pkg\n'}
+[11.189683] (my_first_pkg) StdoutLine: {'line': b'Installing minimal_subscriber script to /home/erum/ros2_workspace/install/my_first_pkg/lib/my_first_pkg\n'}
+[11.192707] (my_first_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/erum/ros2_workspace/build/my_first_pkg/install.log'\n"}
+[11.238005] (my_first_pkg) CommandEnded: {'returncode': 0}
+[11.249906] (my_first_pkg) JobEnded: {'identifier': 'my_first_pkg', 'rc': 0}
+[11.259211] (-) EventReactorShutdown: {}
