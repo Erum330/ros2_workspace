@@ -1,6 +1,8 @@
+/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/figure8_move.py
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/straightmove.py
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/__init__.py
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/circular_move.py
+/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/__pycache__/figure8_move.cpython-312.pyc
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/__pycache__/straightmove.cpython-312.pyc
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/__pycache__/__init__.cpython-312.pyc
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/__pycache__/circular_move.cpython-312.pyc
@@ -14,4 +16,5 @@
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info/PKG-INFO
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430/circular_move
+/home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430/figure8_move
 /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430/straightmove

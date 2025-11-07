@@ -13,7 +13,7 @@ class CircleMover(Node):
     def move_circle(self):
         msg = Twist()
         msg.linear.x = 2.0    # forward speed
-        msg.angular.z = 1.0   # rotation speed (radius = v / ω = 2 / 1 = 2)
+        msg.angular.z =  1.0 # rotation speed (radius = v / ω = 2 / 1 = 2)
         self.publisher_.publish(msg)
         self.get_logger().info('Moving in circle...')
 
