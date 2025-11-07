@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/Erum_pde4430/Erum_pde4430.egg-info/PKG-INFO
+writing dependency_links to ../../build/Erum_pde4430/Erum_pde4430.egg-info/dependency_links.txt
+writing entry points to ../../build/Erum_pde4430/Erum_pde4430.egg-info/entry_points.txt
+writing requirements to ../../build/Erum_pde4430/Erum_pde4430.egg-info/requires.txt
+writing top-level names to ../../build/Erum_pde4430/Erum_pde4430.egg-info/top_level.txt
+reading manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+writing manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+running build
+running build_py
+copying Erum_pde4430/4bots.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430
+copying Erum_pde4430/roomba_cleaner.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430
+running install
+running install_lib
+copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/4bots.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430
+copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/roomba_cleaner.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430
+byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/4bots.py to 4bots.cpython-312.pyc
+byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/roomba_cleaner.py to roomba_cleaner.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/Erum_pde4430/Erum_pde4430.egg-info to /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info
+running install_scripts
+Installing 4bots script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+Installing circular_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+Installing figure8_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+Installing roomba_cleaner script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+Installing straightmove script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+writing list of installed files to '/home/erum/ros2_workspace/build/Erum_pde4430/install.log'

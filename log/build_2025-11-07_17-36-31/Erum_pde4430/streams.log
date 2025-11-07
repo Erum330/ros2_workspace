@@ -1,0 +1,31 @@
+[3.797s] Invoking command in '/home/erum/ros2_workspace/src/Erum_pde4430': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data
+[4.446s] running egg_info
+[4.477s] writing ../../build/Erum_pde4430/Erum_pde4430.egg-info/PKG-INFO
+[4.479s] writing dependency_links to ../../build/Erum_pde4430/Erum_pde4430.egg-info/dependency_links.txt
+[4.479s] writing entry points to ../../build/Erum_pde4430/Erum_pde4430.egg-info/entry_points.txt
+[4.480s] writing requirements to ../../build/Erum_pde4430/Erum_pde4430.egg-info/requires.txt
+[4.482s] writing top-level names to ../../build/Erum_pde4430/Erum_pde4430.egg-info/top_level.txt
+[4.573s] reading manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+[4.576s] writing manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+[4.577s] running build
+[4.578s] running build_py
+[4.579s] copying Erum_pde4430/4bots.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430
+[4.579s] copying Erum_pde4430/roomba_cleaner.py -> /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430
+[4.582s] running install
+[4.595s] running install_lib
+[4.622s] copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/4bots.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430
+[4.623s] copying /home/erum/ros2_workspace/build/Erum_pde4430/build/lib/Erum_pde4430/roomba_cleaner.py -> /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430
+[4.626s] byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/4bots.py to 4bots.cpython-312.pyc
+[4.628s] byte-compiling /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430/roomba_cleaner.py to roomba_cleaner.cpython-312.pyc
+[4.632s] running install_data
+[4.632s] running install_egg_info
+[4.654s] removing '/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info' (and everything under it)
+[4.656s] Copying ../../build/Erum_pde4430/Erum_pde4430.egg-info to /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info
+[4.660s] running install_scripts
+[4.844s] Installing 4bots script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[4.845s] Installing circular_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[4.847s] Installing figure8_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[4.848s] Installing roomba_cleaner script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[4.851s] Installing straightmove script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[4.852s] writing list of installed files to '/home/erum/ros2_workspace/build/Erum_pde4430/install.log'
+[4.917s] Invoked command in '/home/erum/ros2_workspace/src/Erum_pde4430' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data

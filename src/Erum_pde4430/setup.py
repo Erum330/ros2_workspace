@@ -28,6 +28,8 @@ setup(
             'circular_move = Erum_pde4430.circular_move:main',
             'figure8_move = Erum_pde4430.figure8_move:main',
             'roomba_cleaner = Erum_pde4430.roomba_cleaner:main',
+            '4bots = Erum_pde4430.4bots:main',
+
         ],
     },
 )
