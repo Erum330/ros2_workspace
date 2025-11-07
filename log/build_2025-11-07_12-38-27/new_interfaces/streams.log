@@ -1,0 +1,186 @@
+[0.081s] Invoking command in '/home/erum/ros2_workspace/build/new_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/new_interfaces -- -j2 -l2
+[0.906s] [  2%] Built target new_interfaces__rosidl_generator_type_description
+[1.073s] [  2%] Built target ament_cmake_python_copy_new_interfaces
+[1.112s] [  4%] Built target new_interfaces__cpp
+[1.182s] [ 22%] Built target new_interfaces__rosidl_generator_c
+[1.813s] running egg_info
+[1.842s] writing new_interfaces.egg-info/PKG-INFO
+[1.842s] writing dependency_links to new_interfaces.egg-info/dependency_links.txt
+[1.843s] writing top-level names to new_interfaces.egg-info/top_level.txt
+[1.929s] reading manifest file 'new_interfaces.egg-info/SOURCES.txt'
+[1.931s] writing manifest file 'new_interfaces.egg-info/SOURCES.txt'
+[1.972s] [ 22%] Built target ament_cmake_python_build_new_interfaces_egg
+[2.046s] [ 31%] Built target new_interfaces__rosidl_typesupport_cpp
+[2.112s] [ 40%] Built target new_interfaces__rosidl_typesupport_fastrtps_c
+[2.267s] [ 50%] Built target new_interfaces__rosidl_typesupport_introspection_c
+[2.432s] [ 59%] Built target new_interfaces__rosidl_typesupport_c
+[2.642s] [ 68%] Built target new_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.844s] [ 77%] Built target new_interfaces__rosidl_typesupport_introspection_cpp
+[2.972s] [ 77%] Built target new_interfaces
+[3.089s] [ 79%] Built target new_interfaces__py
+[3.162s] [ 86%] Built target new_interfaces__rosidl_generator_py
+[3.204s] [ 90%] Built target new_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.334s] [ 95%] Built target new_interfaces_s__rosidl_typesupport_introspection_c
+[3.592s] [100%] Built target new_interfaces_s__rosidl_typesupport_c
+[3.616s] Invoked command in '/home/erum/ros2_workspace/build/new_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/new_interfaces -- -j2 -l2
+[3.642s] Invoking command in '/home/erum/ros2_workspace/build/new_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/new_interfaces
+[3.680s] -- Install configuration: ""
+[3.687s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/rosidl_interfaces/new_interfaces
+[3.690s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/msg/IOTSensor.json
+[3.690s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/srv/AddTwoInts.json
+[3.690s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces
+[3.694s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv
+[3.694s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/add_two_ints.h
+[3.694s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail
+[3.694s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__functions.h
+[3.695s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__description.c
+[3.695s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__functions.c
+[3.695s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.h
+[3.695s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__struct.h
+[3.695s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.c
+[3.698s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg
+[3.699s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.699s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/iot_sensor.h
+[3.699s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail
+[3.699s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__functions.c
+[3.699s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.h
+[3.700s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__struct.h
+[3.700s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.c
+[3.704s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__description.c
+[3.704s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__functions.h
+[3.705s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/library_path.sh
+[3.706s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/library_path.dsv
+[3.708s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_generator_c.so
+[3.709s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces
+[3.710s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv
+[3.710s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail
+[3.710s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[3.710s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg
+[3.710s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.710s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail
+[3.711s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h
+[3.715s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.715s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces
+[3.716s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv
+[3.716s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail
+[3.716s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[3.716s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.c
+[3.719s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg
+[3.719s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.719s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail
+[3.720s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_introspection_c.h
+[3.720s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.c
+[3.720s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_introspection_c.so
+[3.721s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_c.so
+[3.724s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces
+[3.724s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv
+[3.724s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/add_two_ints.hpp
+[3.724s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__struct.hpp
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.hpp
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__traits.hpp
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__builder.hpp
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/iot_sensor.hpp
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail
+[3.725s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__builder.hpp
+[3.731s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.hpp
+[3.731s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__struct.hpp
+[3.731s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__traits.hpp
+[3.731s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/dds_fastrtps
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/dds_fastrtps
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.732s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.734s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__type_support.cpp
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__type_support.cpp
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/include/new_interfaces/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_introspection_cpp.hpp
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.739s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_typesupport_cpp.so
+[3.741s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/pythonpath.sh
+[3.741s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/pythonpath.dsv
+[3.741s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info
+[3.741s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.741s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.741s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.742s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.742s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces
+[3.749s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.c
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv/_add_two_ints_s.c
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv/__init__.py
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv/_add_two_ints.py
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/__init__.py
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_c.so
+[3.750s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg
+[3.753s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg/_iot_sensor.py
+[3.753s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg/__init__.py
+[3.754s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg/_iot_sensor_s.c
+[3.754s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.832s] Listing '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces'...
+[3.833s] Listing '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/msg'...
+[3.833s] Listing '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/srv'...
+[3.842s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.844s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.846s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages/new_interfaces/new_interfaces_s__rosidl_typesupport_c.so
+[3.848s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/lib/libnew_interfaces__rosidl_generator_py.so
+[3.849s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/msg/IOTSensor.idl
+[3.849s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/srv/AddTwoInts.idl
+[3.850s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/msg/IOTSensor.msg
+[3.850s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/srv/AddTwoInts.srv
+[3.852s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/package_run_dependencies/new_interfaces
+[3.853s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/parent_prefix_path/new_interfaces
+[3.853s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/ament_prefix_path.sh
+[3.855s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/ament_prefix_path.dsv
+[3.855s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/path.sh
+[3.855s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/environment/path.dsv
+[3.857s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.bash
+[3.857s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.sh
+[3.857s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.zsh
+[3.857s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/local_setup.dsv
+[3.857s] -- Installing: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.dsv
+[3.864s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/ament_index/resource_index/packages/new_interfaces
+[3.873s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_cExport.cmake
+[3.873s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.873s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.875s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.876s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.877s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.879s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cExport.cmake
+[3.879s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.881s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_cppExport.cmake
+[3.881s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.881s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.884s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.884s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.886s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cppExport.cmake
+[3.887s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.888s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_pyExport.cmake
+[3.888s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/export_new_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.888s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.889s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.889s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.889s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.889s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.889s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.890s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.890s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfacesConfig.cmake
+[3.890s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/cmake/new_interfacesConfig-version.cmake
+[3.892s] -- Up-to-date: /home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.xml
+[3.894s] Invoked command in '/home/erum/ros2_workspace/build/new_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/new_interfaces
