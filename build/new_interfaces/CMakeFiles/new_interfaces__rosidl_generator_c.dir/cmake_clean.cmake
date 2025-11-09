@@ -11,6 +11,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.c.o.d"
   "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o"
   "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.o.d"
+  "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.o"
+  "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.o.d"
+  "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.o"
+  "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.o.d"
+  "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o"
+  "CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o.d"
   "libnew_interfaces__rosidl_generator_c.pdb"
   "libnew_interfaces__rosidl_generator_c.so"
   "rosidl_generator_c/new_interfaces/msg/detail/iot_sensor__description.c"
@@ -27,6 +33,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__struct.h"
   "rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c"
   "rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.h"
+  "rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c"
+  "rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c"
+  "rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.h"
+  "rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__struct.h"
+  "rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c"
+  "rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.h"
+  "rosidl_generator_c/new_interfaces/srv/rectangle_area.h"
 )
 
 # Per-language clean rules from dependency scanning.

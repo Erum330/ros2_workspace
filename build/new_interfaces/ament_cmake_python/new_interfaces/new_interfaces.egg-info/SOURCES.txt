@@ -8,3 +8,4 @@ new_interfaces/msg/__init__.py
 new_interfaces/msg/_iot_sensor.py
 new_interfaces/srv/__init__.py
 new_interfaces/srv/_add_two_ints.py
+new_interfaces/srv/_rectangle_area.py

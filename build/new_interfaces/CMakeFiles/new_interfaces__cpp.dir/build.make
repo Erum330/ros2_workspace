@@ -76,6 +76,11 @@ CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/a
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/rectangle_area.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__builder.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__struct.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__traits.hpp
+CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__type_support.hpp
 CMakeFiles/new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -99,6 +104,7 @@ rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/ros
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: rosidl_adapter/new_interfaces/msg/IOTSensor.idl
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: rosidl_adapter/new_interfaces/srv/AddTwoInts.idl
+rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: rosidl_adapter/new_interfaces/srv/RectangleArea.idl
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -132,6 +138,21 @@ rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp: rosidl_
 rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp
 
+rosidl_generator_cpp/new_interfaces/srv/rectangle_area.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/rectangle_area.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__builder.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__builder.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__struct.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__struct.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__traits.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__traits.hpp
+
+rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__type_support.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__type_support.hpp
+
 rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/new_interfaces/msg/iot_sensor.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/new_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -147,6 +168,11 @@ new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints
 new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp
 new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp
 new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__builder.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__struct.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__traits.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__type_support.hpp
+new_interfaces__cpp: rosidl_generator_cpp/new_interfaces/srv/rectangle_area.hpp
 new_interfaces__cpp: CMakeFiles/new_interfaces__cpp.dir/build.make
 .PHONY : new_interfaces__cpp
 

@@ -68,6 +68,7 @@ include CMakeFiles/new_interfaces.dir/progress.make
 
 CMakeFiles/new_interfaces: /home/erum/ros2_workspace/src/new_interfaces/msg/IOTSensor.msg
 CMakeFiles/new_interfaces: /home/erum/ros2_workspace/src/new_interfaces/srv/AddTwoInts.srv
+CMakeFiles/new_interfaces: /home/erum/ros2_workspace/src/new_interfaces/srv/RectangleArea.srv
 CMakeFiles/new_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 new_interfaces: CMakeFiles/new_interfaces

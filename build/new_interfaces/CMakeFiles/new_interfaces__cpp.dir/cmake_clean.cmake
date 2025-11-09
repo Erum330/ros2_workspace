@@ -11,6 +11,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__struct.hpp"
   "rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__traits.hpp"
   "rosidl_generator_cpp/new_interfaces/srv/detail/add_two_ints__type_support.hpp"
+  "rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__builder.hpp"
+  "rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__struct.hpp"
+  "rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__traits.hpp"
+  "rosidl_generator_cpp/new_interfaces/srv/detail/rectangle_area__type_support.hpp"
+  "rosidl_generator_cpp/new_interfaces/srv/rectangle_area.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

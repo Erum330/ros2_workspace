@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces:msg/IOTSensor.idl",
-    "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces:srv/AddTwoInts.idl"
+    "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces:srv/AddTwoInts.idl",
+    "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces:srv/RectangleArea.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -33,12 +34,14 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces/msg/IOTSensor.idl",
     "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces/srv/AddTwoInts.idl",
+    "/home/erum/ros2_workspace/build/new_interfaces/rosidl_adapter/new_interfaces/srv/RectangleArea.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
     "msg/IOTSensor.idl:/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_type_description/new_interfaces/msg/IOTSensor.json",
-    "srv/AddTwoInts.idl:/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_type_description/new_interfaces/srv/AddTwoInts.json"
+    "srv/AddTwoInts.idl:/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_type_description/new_interfaces/srv/AddTwoInts.json",
+    "srv/RectangleArea.idl:/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_type_description/new_interfaces/srv/RectangleArea.json"
   ]
 }

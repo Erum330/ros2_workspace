@@ -562,6 +562,78 @@ rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s
 .PHONY : rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s
 
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.o: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.o
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.o
+
+# target to build an object file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.o
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.o
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.i: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.i
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.i
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.i
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.s: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.s
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.s
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.c.s
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.o: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.o
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.o
+
+# target to build an object file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.o
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.o
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.i: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.i
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.i
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.i
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.s: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.s
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.s
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.c.s
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.o: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.o
+
+# target to build an object file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.i: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i
+
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.s: rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_c.dir/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s
+.PHONY : rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s
+
 rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.o
 
@@ -682,6 +754,30 @@ rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_py.dir/rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c.s
 .PHONY : rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c.s
 
+rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.o: rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.o
+.PHONY : rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.o
+
+# target to build an object file
+rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_py.dir/rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.o
+.PHONY : rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.o
+
+rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.i: rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.i
+.PHONY : rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_py.dir/rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.i
+.PHONY : rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.i
+
+rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.s: rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.s
+.PHONY : rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/new_interfaces__rosidl_generator_py.dir/rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.s
+.PHONY : rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c.s
+
 rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.o: rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.o
 
@@ -729,6 +825,30 @@ rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.s: rosidl_typ
 rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.cpp.s
+
+rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.o: rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.o
+
+rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.i: rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.i
+
+rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.s: rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.cpp.s
 
 rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.o: rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.o
@@ -778,6 +898,30 @@ rosidl_typesupport_cpp/new_interfaces/srv/add_two_ints__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new_interfaces/srv/add_two_ints__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/new_interfaces/srv/add_two_ints__type_support.cpp.s
 
+rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.o: rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.o
+
+rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.i: rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.i
+
+rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.s: rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.o: rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.o
 
@@ -825,6 +969,30 @@ rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_suppo
 rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.o: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.i: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.s: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/new_interfaces/msg/detail/dds_fastrtps/iot_sensor__type_support.o: rosidl_typesupport_fastrtps_cpp/new_interfaces/msg/detail/dds_fastrtps/iot_sensor__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/msg/detail/dds_fastrtps/iot_sensor__type_support.o
@@ -874,6 +1042,30 @@ rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/add_two_i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.o: rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.i: rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.s: rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/new_interfaces/msg/detail/iot_sensor__type_support.o: rosidl_typesupport_introspection_c/new_interfaces/msg/detail/iot_sensor__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/new_interfaces/msg/detail/iot_sensor__type_support.o
 
@@ -922,6 +1114,30 @@ rosidl_typesupport_introspection_c/new_interfaces/srv/detail/add_two_ints__type_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/new_interfaces/srv/detail/add_two_ints__type_support.c.s
 
+rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.o: rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.o
+
+rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.i: rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.i
+
+rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.s: rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.c.s
+
 rosidl_typesupport_introspection_cpp/new_interfaces/msg/detail/iot_sensor__type_support.o: rosidl_typesupport_introspection_cpp/new_interfaces/msg/detail/iot_sensor__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/msg/detail/iot_sensor__type_support.o
 
@@ -969,6 +1185,30 @@ rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/add_two_ints__typ
 rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/add_two_ints__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/add_two_ints__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/add_two_ints__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.o: rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.i: rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.s: rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/new_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.cpp.s
 
 # Help Target
 help:
@@ -1020,6 +1260,15 @@ help:
 	@echo "... rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.o"
 	@echo "... rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.i"
 	@echo "... rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.s"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.o"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.i"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__description.s"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.o"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.i"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.s"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.o"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.i"
+	@echo "... rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.s"
 	@echo "... rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/new_interfaces/_new_interfaces_s.ep.rosidl_typesupport_c.s"
@@ -1035,42 +1284,63 @@ help:
 	@echo "... rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.o"
 	@echo "... rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.i"
 	@echo "... rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.s"
+	@echo "... rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.o"
+	@echo "... rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.i"
+	@echo "... rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.s"
 	@echo "... rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.o"
 	@echo "... rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.i"
 	@echo "... rosidl_typesupport_c/new_interfaces/msg/iot_sensor__type_support.s"
 	@echo "... rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.o"
 	@echo "... rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.i"
 	@echo "... rosidl_typesupport_c/new_interfaces/srv/add_two_ints__type_support.s"
+	@echo "... rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.o"
+	@echo "... rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.i"
+	@echo "... rosidl_typesupport_c/new_interfaces/srv/rectangle_area__type_support.s"
 	@echo "... rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.o"
 	@echo "... rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.i"
 	@echo "... rosidl_typesupport_cpp/new_interfaces/msg/iot_sensor__type_support.s"
 	@echo "... rosidl_typesupport_cpp/new_interfaces/srv/add_two_ints__type_support.o"
 	@echo "... rosidl_typesupport_cpp/new_interfaces/srv/add_two_ints__type_support.i"
 	@echo "... rosidl_typesupport_cpp/new_interfaces/srv/add_two_ints__type_support.s"
+	@echo "... rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.o"
+	@echo "... rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.i"
+	@echo "... rosidl_typesupport_cpp/new_interfaces/srv/rectangle_area__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/msg/detail/dds_fastrtps/iot_sensor__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/msg/detail/dds_fastrtps/iot_sensor__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/msg/detail/dds_fastrtps/iot_sensor__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/new_interfaces/srv/detail/dds_fastrtps/rectangle_area__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/new_interfaces/msg/detail/iot_sensor__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/new_interfaces/msg/detail/iot_sensor__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/new_interfaces/msg/detail/iot_sensor__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/new_interfaces/srv/detail/add_two_ints__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/new_interfaces/srv/detail/add_two_ints__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/new_interfaces/srv/detail/add_two_ints__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/new_interfaces/srv/detail/rectangle_area__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/msg/detail/iot_sensor__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/msg/detail/iot_sensor__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/msg/detail/iot_sensor__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/add_two_ints__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/add_two_ints__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/add_two_ints__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/new_interfaces/srv/detail/rectangle_area__type_support.s"
 .PHONY : help
 
 

@@ -10,6 +10,9 @@ CMakeFiles/new_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_
  /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__functions.h
  /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__struct.h
  /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/add_two_ints__type_support.h
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__functions.h
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__struct.h
+ /home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_c/new_interfaces/srv/detail/rectangle_area__type_support.h
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
  /opt/ros/jazzy/include/rcutils/rcutils/allocator.h
  /opt/ros/jazzy/include/rcutils/rcutils/macros.h

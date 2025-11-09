@@ -79,6 +79,7 @@ rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_types
 rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/new_interfaces/msg/IOTSensor.idl
 rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/new_interfaces/srv/AddTwoInts.idl
+rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/new_interfaces/srv/RectangleArea.idl
 rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -93,6 +94,12 @@ rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__rosidl_typ
 
 rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp: rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp: rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp
 
 CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.cpp.o: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.cpp
@@ -122,16 +129,32 @@ CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erum/ros2_workspace/build/new_interfaces/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp -o CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.s
 
+CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp
+CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o -MF CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o.d -o CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o -c /home/erum/ros2_workspace/build/new_interfaces/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp
+
+CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erum/ros2_workspace/build/new_interfaces/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp > CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.i
+
+CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erum/ros2_workspace/build/new_interfaces/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp -o CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.s
+
 # Object files for target new_interfaces__rosidl_typesupport_fastrtps_c
 new_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.cpp.o" \
-"CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o"
+"CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o" \
+"CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o"
 
 # External object files for target new_interfaces__rosidl_typesupport_fastrtps_c
 new_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.cpp.o
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o
+libnew_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp.o
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: libnew_interfaces__rosidl_generator_c.so
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
@@ -146,7 +169,7 @@ libnew_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libbuilt
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librcutils.so
 libnew_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libnew_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erum/ros2_workspace/build/new_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libnew_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +184,8 @@ CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_type
 CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/new_interfaces/msg/detail/iot_sensor__type_support_c.cpp
 CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/add_two_ints__type_support_c.cpp
+CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/new_interfaces/srv/detail/rectangle_area__type_support_c.cpp
 	cd /home/erum/ros2_workspace/build/new_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/src/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces /home/erum/ros2_workspace/build/new_interfaces/CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/new_interfaces__rosidl_typesupport_fastrtps_c.dir/depend
 

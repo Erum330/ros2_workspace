@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_py/new_interfaces/srv/__init__.py"
   "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_py/new_interfaces/srv/_add_two_ints.py"
   "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_py/new_interfaces/srv/_add_two_ints_s.c"
+  "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_py/new_interfaces/srv/_rectangle_area.py"
+  "/home/erum/ros2_workspace/build/new_interfaces/rosidl_generator_py/new_interfaces/srv/_rectangle_area_s.c"
   "CMakeFiles/new_interfaces__py"
 )
 

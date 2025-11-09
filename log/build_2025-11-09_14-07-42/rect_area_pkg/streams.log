@@ -1,0 +1,25 @@
+[0.837s] Invoking command in '/home/erum/ros2_workspace/src/rect_area_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/rect_area_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rect_area_pkg build --build-base /home/erum/ros2_workspace/build/rect_area_pkg/build install --record /home/erum/ros2_workspace/build/rect_area_pkg/install.log --single-version-externally-managed install_data
+[1.072s] running egg_info
+[1.085s] writing ../../build/rect_area_pkg/rect_area_pkg.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../build/rect_area_pkg/rect_area_pkg.egg-info/dependency_links.txt
+[1.087s] writing entry points to ../../build/rect_area_pkg/rect_area_pkg.egg-info/entry_points.txt
+[1.088s] writing requirements to ../../build/rect_area_pkg/rect_area_pkg.egg-info/requires.txt
+[1.088s] writing top-level names to ../../build/rect_area_pkg/rect_area_pkg.egg-info/top_level.txt
+[1.123s] reading manifest file '../../build/rect_area_pkg/rect_area_pkg.egg-info/SOURCES.txt'
+[1.125s] writing manifest file '../../build/rect_area_pkg/rect_area_pkg.egg-info/SOURCES.txt'
+[1.125s] running build
+[1.125s] running build_py
+[1.125s] copying rect_area_pkg/rect_client.py -> /home/erum/ros2_workspace/build/rect_area_pkg/build/lib/rect_area_pkg
+[1.127s] running install
+[1.131s] running install_lib
+[1.145s] copying /home/erum/ros2_workspace/build/rect_area_pkg/build/lib/rect_area_pkg/rect_client.py -> /home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages/rect_area_pkg
+[1.147s] byte-compiling /home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages/rect_area_pkg/rect_client.py to rect_client.cpython-312.pyc
+[1.149s] running install_data
+[1.149s] running install_egg_info
+[1.168s] removing '/home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages/rect_area_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.169s] Copying ../../build/rect_area_pkg/rect_area_pkg.egg-info to /home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages/rect_area_pkg-0.0.0-py3.12.egg-info
+[1.177s] running install_scripts
+[1.393s] Installing rect_client script to /home/erum/ros2_workspace/install/rect_area_pkg/lib/rect_area_pkg
+[1.395s] Installing rect_server script to /home/erum/ros2_workspace/install/rect_area_pkg/lib/rect_area_pkg
+[1.397s] writing list of installed files to '/home/erum/ros2_workspace/build/rect_area_pkg/install.log'
+[1.431s] Invoked command in '/home/erum/ros2_workspace/src/rect_area_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/rect_area_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rect_area_pkg build --build-base /home/erum/ros2_workspace/build/rect_area_pkg/build install --record /home/erum/ros2_workspace/build/rect_area_pkg/install.log --single-version-externally-managed install_data
