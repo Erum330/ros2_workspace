@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "new_interfaces/srv/RectangleArea_Request",
+      "fields": [
+        {
+          "name": "length",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "width",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "new_interfaces/srv/RectangleArea_Request",
+      "hash_string": "RIHS01_704b1d3a21b236fd9790b7252a704d626f560e80ced5efe761a511a821deba59"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/rect_area_pkg/rect_area_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/rect_area_pkg/rect_area_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/rect_area_pkg/rect_area_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/rect_area_pkg/rect_area_pkg.egg-info/requires.txt
+writing top-level names to ../../build/rect_area_pkg/rect_area_pkg.egg-info/top_level.txt
+reading manifest file '../../build/rect_area_pkg/rect_area_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/rect_area_pkg/rect_area_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages/rect_area_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/rect_area_pkg/rect_area_pkg.egg-info to /home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages/rect_area_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing rect_client script to /home/erum/ros2_workspace/install/rect_area_pkg/lib/rect_area_pkg
+Installing rect_server script to /home/erum/ros2_workspace/install/rect_area_pkg/lib/rect_area_pkg
+writing list of installed files to '/home/erum/ros2_workspace/build/rect_area_pkg/install.log'

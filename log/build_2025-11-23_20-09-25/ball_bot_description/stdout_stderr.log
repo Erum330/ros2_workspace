@@ -1,0 +1,14 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/erum/ros2_workspace/build/ball_bot_description
+-- Install configuration: ""
+-- Installing: /home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/urdf
+-- Installing: /home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/urdf/ball_bot.urdf
+-- Installing: /home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/meshes
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/erum/ros2_workspace/src/ball_bot_description/rviz": No such file or
+  directory.
+
+[0m

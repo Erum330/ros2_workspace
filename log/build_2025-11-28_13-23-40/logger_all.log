@@ -1,0 +1,485 @@
+[1.747s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.750s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d5be7379340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d5be74cd100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d5be74cd100>>, mixin_verb=('build',))
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.432s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/erum/ros2_workspace'
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[3.028s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[3.028s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[3.028s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extensions ['ignore', 'ignore_ament_install']
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extension 'ignore'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extension 'ignore_ament_install'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extensions ['colcon_pkg']
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extension 'colcon_pkg'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extensions ['colcon_meta']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extension 'colcon_meta'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extensions ['ros']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/Erum_pde4430) by extension 'ros'
+[3.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Erum_pde4430' with type 'ros.ament_python' and name 'Erum_pde4430'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extension 'ignore'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extension 'ignore_ament_install'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extensions ['colcon_pkg']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extension 'colcon_pkg'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extensions ['colcon_meta']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extension 'colcon_meta'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extensions ['ros']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints_pkg) by extension 'ros'
+[3.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/add_two_ints_pkg' with type 'ros.ament_python' and name 'add_two_ints_pkg'
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore'
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore_ament_install'
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_pkg']
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_pkg'
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_meta']
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_meta'
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ros']
+[3.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ros'
+[3.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot' with type 'ros.ament_python' and name 'mobile_robot'
+[3.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'ignore'
+[3.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'ignore_ament_install'
+[3.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['colcon_pkg']
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'colcon_pkg'
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['colcon_meta']
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'colcon_meta'
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['ros']
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'ros'
+[3.093s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_first_pkg' with type 'ros.ament_python' and name 'my_first_pkg'
+[3.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[3.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[3.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[3.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extension 'ignore'
+[3.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extension 'ignore_ament_install'
+[3.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extensions ['colcon_pkg']
+[3.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extension 'colcon_pkg'
+[3.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extensions ['colcon_meta']
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extension 'colcon_meta'
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extensions ['ros']
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_interfaces) by extension 'ros'
+[3.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/new_interfaces' with type 'ros.ament_cmake' and name 'new_interfaces'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extension 'ignore'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extension 'ignore_ament_install'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extensions ['colcon_pkg']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extension 'colcon_pkg'
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extensions ['colcon_meta']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extension 'colcon_meta'
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extensions ['ros']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rect_area_pkg) by extension 'ros'
+[3.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rect_area_pkg' with type 'ros.ament_python' and name 'rect_area_pkg'
+[3.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/erum/install
+[3.582s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 498 installed packages in /opt/ros/jazzy
+[3.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.817s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_args' from command line to 'None'
+[4.817s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_target' from command line to 'None'
+[4.817s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.818s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_clean_cache' from command line to 'False'
+[4.818s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_clean_first' from command line to 'False'
+[4.818s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_force_configure' from command line to 'False'
+[4.818s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'ament_cmake_args' from command line to 'None'
+[4.818s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'catkin_cmake_args' from command line to 'None'
+[4.818s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.818s] DEBUG:colcon.colcon_core.verb:Building package 'Erum_pde4430' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/build/Erum_pde4430', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/install/Erum_pde4430', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/Erum_pde4430', 'symlink_install': False, 'test_result_base': None}
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_args' from command line to 'None'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target' from command line to 'None'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[4.819s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.819s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/build/mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/install/mobile_robot', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_args' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.820s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/build/my_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/install/my_first_pkg', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/my_first_pkg', 'symlink_install': False, 'test_result_base': None}
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.820s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.820s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/install/my_robot_description', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.821s] DEBUG:colcon.colcon_core.verb:Building package 'new_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/build/new_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/install/new_interfaces', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/new_interfaces', 'symlink_install': False, 'test_result_base': None}
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_args' from command line to 'None'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_target' from command line to 'None'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[4.821s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.822s] DEBUG:colcon.colcon_core.verb:Building package 'rect_area_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/build/rect_area_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/install/rect_area_pkg', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/rect_area_pkg', 'symlink_install': False, 'test_result_base': None}
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_args' from command line to 'None'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_target' from command line to 'None'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.822s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.822s] DEBUG:colcon.colcon_core.verb:Building package 'add_two_ints_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/build/add_two_ints_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/install/add_two_ints_pkg', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/add_two_ints_pkg', 'symlink_install': False, 'test_result_base': None}
+[4.822s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.827s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.828s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erum/ros2_workspace/src/new_interfaces' with build type 'ament_cmake'
+[4.829s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erum/ros2_workspace/src/new_interfaces'
+[4.868s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.884s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/Erum_pde4430' with build type 'ament_python'
+[4.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('Erum_pde4430', 'ament_prefix_path')
+[4.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/hook/ament_prefix_path.ps1'
+[4.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/hook/ament_prefix_path.dsv'
+[4.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/hook/ament_prefix_path.sh'
+[4.922s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/build/new_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/new_interfaces -- -j2 -l2
+[6.648s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/Erum_pde4430'
+[6.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/build/new_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/new_interfaces -- -j2 -l2
+[9.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/build/new_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/new_interfaces
+[10.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_interfaces)
+[10.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/build/new_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/new_interfaces
+[10.456s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces' for CMake module files
+[10.457s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces' for CMake config files
+[10.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'cmake_prefix_path')
+[10.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.ps1'
+[10.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.dsv'
+[10.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.sh'
+[10.493s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/lib'
+[10.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'ld_library_path_lib')
+[10.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.ps1'
+[10.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.dsv'
+[10.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.sh'
+[10.506s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/bin'
+[10.511s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/lib/pkgconfig/new_interfaces.pc'
+[10.511s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages'
+[10.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'pythonpath')
+[10.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/pythonpath.ps1'
+[10.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/pythonpath.dsv'
+[10.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/pythonpath.sh'
+[10.522s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/bin'
+[10.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.ps1'
+[10.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.dsv'
+[10.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.sh'
+[10.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.bash'
+[10.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.zsh'
+[10.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/new_interfaces/share/colcon-core/packages/new_interfaces)
+[10.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_interfaces)
+[10.562s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces' for CMake module files
+[10.565s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces' for CMake config files
+[10.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'cmake_prefix_path')
+[10.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.ps1'
+[10.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.dsv'
+[10.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.sh'
+[10.582s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/lib'
+[10.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'ld_library_path_lib')
+[10.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.ps1'
+[10.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.dsv'
+[10.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.sh'
+[10.594s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/bin'
+[10.594s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/lib/pkgconfig/new_interfaces.pc'
+[10.595s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages'
+[10.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'pythonpath')
+[10.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/pythonpath.ps1'
+[10.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/pythonpath.dsv'
+[10.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/hook/pythonpath.sh'
+[10.610s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/new_interfaces/bin'
+[10.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.ps1'
+[10.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.dsv'
+[10.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.sh'
+[10.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.bash'
+[10.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/new_interfaces/share/new_interfaces/package.zsh'
+[10.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/new_interfaces/share/colcon-core/packages/new_interfaces)
+[10.637s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/mobile_robot' with build type 'ament_python'
+[10.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'ament_prefix_path')
+[10.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/hook/ament_prefix_path.ps1'
+[10.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/hook/ament_prefix_path.dsv'
+[10.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/hook/ament_prefix_path.sh'
+[10.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.164s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/mobile_robot'
+[12.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/Erum_pde4430': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data
+[16.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/erum/ros2_workspace/build/mobile_robot/build install --record /home/erum/ros2_workspace/build/mobile_robot/install.log --single-version-externally-managed install_data
+[18.197s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/Erum_pde4430' for CMake module files
+[18.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/Erum_pde4430' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data
+[18.199s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/Erum_pde4430' for CMake config files
+[18.204s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/Erum_pde4430/lib'
+[18.207s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/Erum_pde4430/bin'
+[18.207s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/Erum_pde4430/lib/pkgconfig/Erum_pde4430.pc'
+[18.207s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages'
+[18.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('Erum_pde4430', 'pythonpath')
+[18.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/hook/pythonpath.ps1'
+[18.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/hook/pythonpath.dsv'
+[18.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/hook/pythonpath.sh'
+[18.218s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/Erum_pde4430/bin'
+[18.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Erum_pde4430)
+[18.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/package.ps1'
+[18.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/package.dsv'
+[18.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/package.sh'
+[18.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/package.bash'
+[18.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/Erum_pde4430/share/Erum_pde4430/package.zsh'
+[18.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/Erum_pde4430/share/colcon-core/packages/Erum_pde4430)
+[18.244s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/my_first_pkg' with build type 'ament_python'
+[18.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'ament_prefix_path')
+[18.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.ps1'
+[18.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.dsv'
+[18.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.sh'
+[18.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.058s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/my_first_pkg'
+[20.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.332s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/mobile_robot' for CMake module files
+[20.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/erum/ros2_workspace/build/mobile_robot/build install --record /home/erum/ros2_workspace/build/mobile_robot/install.log --single-version-externally-managed install_data
+[20.335s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/mobile_robot' for CMake config files
+[20.336s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/mobile_robot/lib'
+[20.337s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/mobile_robot/bin'
+[20.337s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/mobile_robot/lib/pkgconfig/mobile_robot.pc'
+[20.337s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/mobile_robot/lib/python3.12/site-packages'
+[20.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'pythonpath')
+[20.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/hook/pythonpath.ps1'
+[20.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/hook/pythonpath.dsv'
+[20.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/hook/pythonpath.sh'
+[20.348s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/mobile_robot/bin'
+[20.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot)
+[20.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/package.ps1'
+[20.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/package.dsv'
+[20.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/package.sh'
+[20.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/package.bash'
+[20.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/package.zsh'
+[20.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/mobile_robot/share/colcon-core/packages/mobile_robot)
+[20.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erum/ros2_workspace/src/my_robot_description' with build type 'ament_cmake'
+[20.383s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erum/ros2_workspace/src/my_robot_description'
+[20.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/ros2_workspace/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/erum/ros2_workspace/install/my_robot_description
+[24.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/my_first_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/erum/ros2_workspace/build/my_first_pkg/build install --record /home/erum/ros2_workspace/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[28.046s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_first_pkg' for CMake module files
+[28.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/my_first_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/erum/ros2_workspace/build/my_first_pkg/build install --record /home/erum/ros2_workspace/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[28.049s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_first_pkg' for CMake config files
+[28.051s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_first_pkg/lib'
+[28.052s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_first_pkg/bin'
+[28.053s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_first_pkg/lib/pkgconfig/my_first_pkg.pc'
+[28.054s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_first_pkg/lib/python3.12/site-packages'
+[28.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'pythonpath')
+[28.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.ps1'
+[28.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.dsv'
+[28.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.sh'
+[28.058s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_first_pkg/bin'
+[28.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_pkg)
+[28.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/package.ps1'
+[28.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/package.dsv'
+[28.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/package.sh'
+[28.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/package.bash'
+[28.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_first_pkg/share/my_first_pkg/package.zsh'
+[28.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/my_first_pkg/share/colcon-core/packages/my_first_pkg)
+[28.068s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/rect_area_pkg' with build type 'ament_python'
+[28.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('rect_area_pkg', 'ament_prefix_path')
+[28.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/hook/ament_prefix_path.ps1'
+[28.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/hook/ament_prefix_path.dsv'
+[28.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/hook/ament_prefix_path.sh'
+[28.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.498s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/rect_area_pkg'
+[28.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/ros2_workspace/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/erum/ros2_workspace/install/my_robot_description
+[28.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/my_robot_description -- -j2 -l2
+[28.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/my_robot_description -- -j2 -l2
+[28.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/my_robot_description
+[28.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[28.862s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description' for CMake module files
+[28.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/my_robot_description
+[28.864s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description' for CMake config files
+[28.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[28.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[28.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[28.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[28.875s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/bin'
+[28.875s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[28.875s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/lib/python3.12/site-packages'
+[28.876s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/bin'
+[28.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.ps1'
+[28.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.dsv'
+[28.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.sh'
+[28.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.bash'
+[28.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.zsh'
+[28.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[28.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[28.884s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description' for CMake module files
+[28.886s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description' for CMake config files
+[28.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[28.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[28.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[28.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[28.890s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/bin'
+[28.890s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[28.891s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/lib/python3.12/site-packages'
+[28.891s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/my_robot_description/bin'
+[28.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.ps1'
+[28.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.dsv'
+[28.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.sh'
+[28.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.bash'
+[28.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/my_robot_description/share/my_robot_description/package.zsh'
+[28.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[28.898s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/add_two_ints_pkg' with build type 'ament_python'
+[28.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints_pkg', 'ament_prefix_path')
+[28.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/ament_prefix_path.ps1'
+[28.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/ament_prefix_path.dsv'
+[28.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/ament_prefix_path.sh'
+[28.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.979s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/add_two_ints_pkg'
+[29.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/rect_area_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/rect_area_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rect_area_pkg build --build-base /home/erum/ros2_workspace/build/rect_area_pkg/build install --record /home/erum/ros2_workspace/build/rect_area_pkg/install.log --single-version-externally-managed install_data
+[31.329s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/rect_area_pkg' for CMake module files
+[31.330s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/rect_area_pkg' for CMake config files
+[31.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/rect_area_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/rect_area_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rect_area_pkg build --build-base /home/erum/ros2_workspace/build/rect_area_pkg/build install --record /home/erum/ros2_workspace/build/rect_area_pkg/install.log --single-version-externally-managed install_data
+[31.332s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/rect_area_pkg/lib'
+[31.332s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/rect_area_pkg/bin'
+[31.332s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/rect_area_pkg/lib/pkgconfig/rect_area_pkg.pc'
+[31.332s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/rect_area_pkg/lib/python3.12/site-packages'
+[31.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('rect_area_pkg', 'pythonpath')
+[31.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/hook/pythonpath.ps1'
+[31.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/hook/pythonpath.dsv'
+[31.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/hook/pythonpath.sh'
+[31.338s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/rect_area_pkg/bin'
+[31.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rect_area_pkg)
+[31.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/package.ps1'
+[31.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/package.dsv'
+[31.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/package.sh'
+[31.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/package.bash'
+[31.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/rect_area_pkg/share/rect_area_pkg/package.zsh'
+[31.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/rect_area_pkg/share/colcon-core/packages/rect_area_pkg)
+[31.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/add_two_ints_pkg': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/ros2_workspace/install/new_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/ros2_workspace/build/add_two_ints_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/add_two_ints_pkg build --build-base /home/erum/ros2_workspace/build/add_two_ints_pkg/build install --record /home/erum/ros2_workspace/build/add_two_ints_pkg/install.log --single-version-externally-managed install_data
+[33.006s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/add_two_ints_pkg' for CMake module files
+[33.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/add_two_ints_pkg' returned '0': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/ros2_workspace/install/new_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/ros2_workspace/build/add_two_ints_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/install/new_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/add_two_ints_pkg build --build-base /home/erum/ros2_workspace/build/add_two_ints_pkg/build install --record /home/erum/ros2_workspace/build/add_two_ints_pkg/install.log --single-version-externally-managed install_data
+[33.008s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/add_two_ints_pkg' for CMake config files
+[33.009s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/add_two_ints_pkg/lib'
+[33.009s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/add_two_ints_pkg/bin'
+[33.010s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/pkgconfig/add_two_ints_pkg.pc'
+[33.010s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/add_two_ints_pkg/lib/python3.12/site-packages'
+[33.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints_pkg', 'pythonpath')
+[33.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/pythonpath.ps1'
+[33.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/pythonpath.dsv'
+[33.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/pythonpath.sh'
+[33.016s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/install/add_two_ints_pkg/bin'
+[33.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(add_two_ints_pkg)
+[33.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/package.ps1'
+[33.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/package.dsv'
+[33.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/package.sh'
+[33.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/package.bash'
+[33.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/install/add_two_ints_pkg/share/add_two_ints_pkg/package.zsh'
+[33.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/install/add_two_ints_pkg/share/colcon-core/packages/add_two_ints_pkg)
+[33.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.023s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.023s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.024s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.071s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.688s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/install/local_setup.ps1'
+[33.726s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erum/ros2_workspace/install/_local_setup_util_ps1.py'
+[33.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/install/setup.ps1'
+[33.781s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/install/local_setup.sh'
+[33.793s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erum/ros2_workspace/install/_local_setup_util_sh.py'
+[33.794s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/install/setup.sh'
+[33.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/install/local_setup.bash'
+[33.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/install/setup.bash'
+[33.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/install/local_setup.zsh'
+[33.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/install/setup.zsh'

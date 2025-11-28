@@ -1,0 +1,27 @@
+[4.129s] Invoking command in '/home/erum/ros2_workspace/src/Erum_pde4430': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data
+[5.495s] running egg_info
+[5.566s] writing ../../build/Erum_pde4430/Erum_pde4430.egg-info/PKG-INFO
+[5.569s] writing dependency_links to ../../build/Erum_pde4430/Erum_pde4430.egg-info/dependency_links.txt
+[5.569s] writing entry points to ../../build/Erum_pde4430/Erum_pde4430.egg-info/entry_points.txt
+[5.571s] writing requirements to ../../build/Erum_pde4430/Erum_pde4430.egg-info/requires.txt
+[5.576s] writing top-level names to ../../build/Erum_pde4430/Erum_pde4430.egg-info/top_level.txt
+[5.707s] reading manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+[5.712s] writing manifest file '../../build/Erum_pde4430/Erum_pde4430.egg-info/SOURCES.txt'
+[5.713s] running build
+[5.713s] running build_py
+[5.718s] running install
+[5.763s] running install_lib
+[5.877s] running install_data
+[5.878s] running install_egg_info
+[6.085s] removing '/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info' (and everything under it)
+[6.106s] Copying ../../build/Erum_pde4430/Erum_pde4430.egg-info to /home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages/Erum_pde4430-0.0.0-py3.12.egg-info
+[6.122s] running install_scripts
+[8.206s] Installing 4bots script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[8.208s] Installing circular_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[8.211s] Installing figure8_move script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[8.215s] Installing roomba_cleaner script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[8.219s] Installing straightmove script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[8.219s] Installing user_coordinates script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[8.222s] Installing userinput script to /home/erum/ros2_workspace/install/Erum_pde4430/lib/Erum_pde4430
+[8.226s] writing list of installed files to '/home/erum/ros2_workspace/build/Erum_pde4430/install.log'
+[8.461s] Invoked command in '/home/erum/ros2_workspace/src/Erum_pde4430' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/build/Erum_pde4430/install.log --single-version-externally-managed install_data

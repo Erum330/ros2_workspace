@@ -1,0 +1,17 @@
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/urdf/ball_bot.urdf
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/launch/spawn_ball_bot.launch.py
+/home/erum/ros2_workspace/install/ball_bot_description/share/ament_index/resource_index/package_run_dependencies/ball_bot_description
+/home/erum/ros2_workspace/install/ball_bot_description/share/ament_index/resource_index/parent_prefix_path/ball_bot_description
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/environment/ament_prefix_path.sh
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/environment/ament_prefix_path.dsv
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/environment/path.sh
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/environment/path.dsv
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/local_setup.bash
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/local_setup.sh
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/local_setup.zsh
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/local_setup.dsv
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/package.dsv
+/home/erum/ros2_workspace/install/ball_bot_description/share/ament_index/resource_index/packages/ball_bot_description
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/cmake/ball_bot_descriptionConfig.cmake
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/cmake/ball_bot_descriptionConfig-version.cmake
+/home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/package.xml

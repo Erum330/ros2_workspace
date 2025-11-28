@@ -1,0 +1,18 @@
+[0.014s] Invoking command in '/home/erum/ros2_workspace/build/ball_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/ball_bot_description -- -j2 -l2
+[0.058s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.379s] -- Configuring done (0.3s)
+[0.389s] -- Generating done (0.0s)
+[0.395s] -- Build files have been written to: /home/erum/ros2_workspace/build/ball_bot_description
+[0.444s] Invoked command in '/home/erum/ros2_workspace/build/ball_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/ball_bot_description -- -j2 -l2
+[0.461s] Invoking command in '/home/erum/ros2_workspace/build/ball_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/ball_bot_description
+[0.472s] -- Install configuration: ""
+[0.473s] -- Installing: /home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/urdf
+[0.474s] -- Installing: /home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/urdf/ball_bot.urdf
+[0.474s] -- Installing: /home/erum/ros2_workspace/install/ball_bot_description/share/ball_bot_description/meshes
+[0.475s] [31mCMake Error at cmake_install.cmake:54 (file):
+[0.475s]   file INSTALL cannot find
+[0.475s]   "/home/erum/ros2_workspace/src/ball_bot_description/rviz": No such file or
+[0.476s]   directory.
+[0.476s] 
+[0.477s] [0m
+[0.481s] Invoked command in '/home/erum/ros2_workspace/build/ball_bot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/ball_bot_description
