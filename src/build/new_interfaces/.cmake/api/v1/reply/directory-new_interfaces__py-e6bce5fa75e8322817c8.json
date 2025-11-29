@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "new_interfaces__py",
+		"source" : "/home/erum/ros2_workspace/src/build/new_interfaces/new_interfaces__py"
+	}
+}

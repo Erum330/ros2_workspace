@@ -1,0 +1,588 @@
+[0.297s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.297s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7582487ae690>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7582488ce6f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7582488ce6f0>>, mixin_verb=('build',))
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.419s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/erum/ros2_workspace/src'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(Erum_pde4430) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'Erum_pde4430' with type 'ros.ament_python' and name 'Erum_pde4430'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(add_two_ints_pkg) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'add_two_ints_pkg' with type 'ros.ament_python' and name 'add_two_ints_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_differential_drive_robot-main) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo_differential_drive_robot-main' with type 'ros.ament_cmake' and name 'gazebo_differential_drive_robot'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'mobile_robot' with type 'ros.catkin' and name 'mobile_robot'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'ros'
+[0.556s] DEBUG:colcon.colcon_core.package_identification:Package 'my_first_pkg' with type 'ros.ament_python' and name 'my_first_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ros'
+[0.557s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'colcon_pkg'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ros'
+[0.560s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(new_interfaces) by extension 'ros'
+[0.562s] DEBUG:colcon.colcon_core.package_identification:Package 'new_interfaces' with type 'ros.ament_cmake' and name 'new_interfaces'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rect_area_pkg) by extension 'ros'
+[0.563s] DEBUG:colcon.colcon_core.package_identification:Package 'rect_area_pkg' with type 'ros.ament_python' and name 'rect_area_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.638s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/erum/ros2_workspace/install
+[0.641s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 498 installed packages in /opt/ros/jazzy
+[0.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_args' from command line to 'None'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_target' from command line to 'None'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_clean_cache' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_clean_first' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'cmake_force_configure' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'ament_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'catkin_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'Erum_pde4430' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.802s] DEBUG:colcon.colcon_core.verb:Building package 'Erum_pde4430' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/Erum_pde4430', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/Erum_pde4430', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/Erum_pde4430', 'symlink_install': False, 'test_result_base': None}
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'cmake_target' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_differential_drive_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.802s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_differential_drive_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/gazebo_differential_drive_robot-main', 'symlink_install': False, 'test_result_base': None}
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.802s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/mobile_robot', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.803s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/my_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/my_first_pkg', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/my_first_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.803s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/my_robot_description', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'new_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.803s] DEBUG:colcon.colcon_core.verb:Building package 'new_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/new_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/new_interfaces', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/new_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_target' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'rect_area_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.804s] DEBUG:colcon.colcon_core.verb:Building package 'rect_area_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/rect_area_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/rect_area_pkg', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/rect_area_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_target' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.804s] DEBUG:colcon.colcon_core.verb:Building package 'add_two_ints_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/add_two_ints_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/add_two_ints_pkg', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/add_two_ints_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.805s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.805s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erum/ros2_workspace/src/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erum/ros2_workspace/src/install/my_robot_bringup', 'merge_install': False, 'path': '/home/erum/ros2_workspace/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.805s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.807s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erum/ros2_workspace/src/my_robot_description' with build type 'ament_cmake'
+[0.807s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erum/ros2_workspace/src/my_robot_description'
+[0.816s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.816s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.825s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erum/ros2_workspace/src/new_interfaces' with build type 'ament_cmake'
+[0.825s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erum/ros2_workspace/src/new_interfaces'
+[0.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/my_robot_description': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/my_robot_description -- -j2 -l2
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/new_interfaces': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/new_interfaces -- -j2 -l2
+[1.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/my_robot_description -- -j2 -l2
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/my_robot_description': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/my_robot_description
+[1.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/my_robot_description
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description' for CMake module files
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description' for CMake config files
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/bin'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/lib/python3.12/site-packages'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.sh'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.bash'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description' for CMake module files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description' for CMake config files
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/lib/python3.12/site-packages'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_description/bin'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.sh'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.bash'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/Erum_pde4430' with build type 'ament_python'
+[1.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('Erum_pde4430', 'ament_prefix_path')
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/hook/ament_prefix_path.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/hook/ament_prefix_path.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/hook/ament_prefix_path.sh'
+[1.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.083s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/Erum_pde4430'
+[2.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/new_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/new_interfaces -- -j2 -l2
+[2.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/new_interfaces': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/new_interfaces
+[2.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_interfaces)
+[2.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/new_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/new_interfaces
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces' for CMake module files
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces' for CMake config files
+[2.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'cmake_prefix_path')
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.ps1'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.dsv'
+[2.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.sh'
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/lib'
+[2.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'ld_library_path_lib')
+[2.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.ps1'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.sh'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/bin'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/lib/pkgconfig/new_interfaces.pc'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/lib/python3.12/site-packages'
+[2.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'pythonpath')
+[2.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/pythonpath.ps1'
+[2.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/pythonpath.dsv'
+[2.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/pythonpath.sh'
+[2.832s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/bin'
+[2.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.ps1'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.dsv'
+[2.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.sh'
+[2.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.bash'
+[2.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.zsh'
+[2.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/new_interfaces/share/colcon-core/packages/new_interfaces)
+[2.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_interfaces)
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces' for CMake module files
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces' for CMake config files
+[2.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'cmake_prefix_path')
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.ps1'
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.dsv'
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/cmake_prefix_path.sh'
+[2.850s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/lib'
+[2.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'ld_library_path_lib')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/ld_library_path_lib.sh'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/bin'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/lib/pkgconfig/new_interfaces.pc'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/lib/python3.12/site-packages'
+[2.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_interfaces', 'pythonpath')
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/pythonpath.ps1'
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/pythonpath.dsv'
+[2.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/hook/pythonpath.sh'
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/new_interfaces/bin'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.ps1'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.sh'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.bash'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/new_interfaces/share/new_interfaces/package.zsh'
+[2.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/new_interfaces/share/colcon-core/packages/new_interfaces)
+[2.863s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erum/ros2_workspace/src/gazebo_differential_drive_robot-main' with build type 'ament_cmake'
+[2.863s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erum/ros2_workspace/src/gazebo_differential_drive_robot-main'
+[2.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot -- -j2 -l2
+[3.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot' returned '0': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot -- -j2 -l2
+[3.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot
+[3.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_differential_drive_robot)
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot' for CMake module files
+[3.201s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot' for CMake config files
+[3.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_differential_drive_robot', 'cmake_prefix_path')
+[3.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/hook/cmake_prefix_path.ps1'
+[3.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot' returned '0': CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/gazebo_differential_drive_robot
+[3.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/hook/cmake_prefix_path.dsv'
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/hook/cmake_prefix_path.sh'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/bin'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/lib/pkgconfig/gazebo_differential_drive_robot.pc'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/lib/python3.12/site-packages'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/bin'
+[3.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.ps1'
+[3.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.dsv'
+[3.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.sh'
+[3.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.bash'
+[3.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.zsh'
+[3.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/colcon-core/packages/gazebo_differential_drive_robot)
+[3.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_differential_drive_robot)
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot' for CMake module files
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot' for CMake config files
+[3.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_differential_drive_robot', 'cmake_prefix_path')
+[3.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/hook/cmake_prefix_path.ps1'
+[3.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/hook/cmake_prefix_path.dsv'
+[3.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/hook/cmake_prefix_path.sh'
+[3.255s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/bin'
+[3.256s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/lib/pkgconfig/gazebo_differential_drive_robot.pc'
+[3.256s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/lib/python3.12/site-packages'
+[3.256s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/bin'
+[3.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.ps1'
+[3.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.dsv'
+[3.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.sh'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.bash'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/gazebo_differential_drive_robot/package.zsh'
+[3.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/gazebo_differential_drive_robot/share/colcon-core/packages/gazebo_differential_drive_robot)
+[3.275s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/erum/ros2_workspace/src/mobile_robot' with build type 'catkin'
+[3.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erum/ros2_workspace/src/mobile_robot'
+[3.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/ros2_workspace/src/mobile_robot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/erum/ros2_workspace/src/install/mobile_robot
+[3.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/Erum_pde4430': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/src/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/src/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/src/build/Erum_pde4430/install.log --single-version-externally-managed install_data
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/Erum_pde4430' for CMake module files
+[5.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/Erum_pde4430' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/src/build/Erum_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/Erum_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Erum_pde4430 build --build-base /home/erum/ros2_workspace/src/build/Erum_pde4430/build install --record /home/erum/ros2_workspace/src/build/Erum_pde4430/install.log --single-version-externally-managed install_data
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/Erum_pde4430' for CMake config files
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/Erum_pde4430/lib'
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/Erum_pde4430/bin'
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/Erum_pde4430/lib/pkgconfig/Erum_pde4430.pc'
+[5.040s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/Erum_pde4430/lib/python3.12/site-packages'
+[5.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('Erum_pde4430', 'pythonpath')
+[5.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/hook/pythonpath.ps1'
+[5.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/hook/pythonpath.dsv'
+[5.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/hook/pythonpath.sh'
+[5.049s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/Erum_pde4430/bin'
+[5.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Erum_pde4430)
+[5.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/package.ps1'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/package.dsv'
+[5.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/package.sh'
+[5.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/package.bash'
+[5.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/Erum_pde4430/share/Erum_pde4430/package.zsh'
+[5.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/Erum_pde4430/share/colcon-core/packages/Erum_pde4430)
+[5.080s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/my_first_pkg' with build type 'ament_python'
+[5.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'ament_prefix_path')
+[5.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.ps1'
+[5.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.dsv'
+[5.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.sh'
+[5.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.111s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.851s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/my_first_pkg'
+[5.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/my_first_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/src/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_first_pkg build --build-base /home/erum/ros2_workspace/src/build/my_first_pkg/build install --record /home/erum/ros2_workspace/src/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[10.644s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_first_pkg' for CMake module files
+[10.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/my_first_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/src/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_first_pkg build --build-base /home/erum/ros2_workspace/src/build/my_first_pkg/build install --record /home/erum/ros2_workspace/src/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[10.646s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_first_pkg' for CMake config files
+[10.646s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_first_pkg/lib'
+[10.646s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_first_pkg/bin'
+[10.646s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_first_pkg/lib/pkgconfig/my_first_pkg.pc'
+[10.647s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_first_pkg/lib/python3.12/site-packages'
+[10.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'pythonpath')
+[10.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.ps1'
+[10.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.dsv'
+[10.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.sh'
+[10.649s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_first_pkg/bin'
+[10.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_pkg)
+[10.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/package.ps1'
+[10.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/package.dsv'
+[10.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/package.sh'
+[10.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/package.bash'
+[10.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_first_pkg/share/my_first_pkg/package.zsh'
+[10.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/my_first_pkg/share/colcon-core/packages/my_first_pkg)
+[10.656s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/rect_area_pkg' with build type 'ament_python'
+[10.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('rect_area_pkg', 'ament_prefix_path')
+[10.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/hook/ament_prefix_path.ps1'
+[10.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/hook/ament_prefix_path.dsv'
+[10.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/hook/ament_prefix_path.sh'
+[10.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.008s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/rect_area_pkg'
+[11.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/rect_area_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/src/build/rect_area_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/rect_area_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rect_area_pkg build --build-base /home/erum/ros2_workspace/src/build/rect_area_pkg/build install --record /home/erum/ros2_workspace/src/build/rect_area_pkg/install.log --single-version-externally-managed install_data
+[11.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/ros2_workspace/src/mobile_robot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/erum/ros2_workspace/src/install/mobile_robot
+[11.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/mobile_robot -- -j2 -l2
+[11.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/mobile_robot -- -j2 -l2
+[11.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/mobile_robot
+[11.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/mobile_robot
+[11.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'ros_package_path')
+[11.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/ros_package_path.ps1'
+[11.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/ros_package_path.dsv'
+[11.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/ros_package_path.sh'
+[11.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'pkg_config_path')
+[11.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/pkg_config_path.ps1'
+[11.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/pkg_config_path.dsv'
+[11.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/pkg_config_path.sh'
+[11.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'pkg_config_path_multiarch')
+[11.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/pkg_config_path_multiarch.ps1'
+[11.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/pkg_config_path_multiarch.dsv'
+[11.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/pkg_config_path_multiarch.sh'
+[11.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot)
+[11.800s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/mobile_robot' for CMake module files
+[11.800s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/mobile_robot' for CMake config files
+[11.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'cmake_prefix_path')
+[11.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.ps1'
+[11.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.dsv'
+[11.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.sh'
+[11.801s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/mobile_robot/bin'
+[11.802s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/mobile_robot/lib/pkgconfig/mobile_robot.pc'
+[11.802s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/mobile_robot/lib/python3.12/site-packages'
+[11.802s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/mobile_robot/bin'
+[11.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/package.ps1'
+[11.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/package.dsv'
+[11.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/package.sh'
+[11.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/package.bash'
+[11.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/mobile_robot/share/mobile_robot/package.zsh'
+[11.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/mobile_robot/share/colcon-core/packages/mobile_robot)
+[11.806s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/erum/ros2_workspace/src/add_two_ints_pkg' with build type 'ament_python'
+[11.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints_pkg', 'ament_prefix_path')
+[11.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/ament_prefix_path.ps1'
+[11.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/ament_prefix_path.dsv'
+[11.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/ament_prefix_path.sh'
+[11.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.042s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/erum/ros2_workspace/src/add_two_ints_pkg'
+[12.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.047s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/rect_area_pkg' for CMake module files
+[12.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/rect_area_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/ros2_workspace/src/build/rect_area_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/rect_area_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rect_area_pkg build --build-base /home/erum/ros2_workspace/src/build/rect_area_pkg/build install --record /home/erum/ros2_workspace/src/build/rect_area_pkg/install.log --single-version-externally-managed install_data
+[12.048s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/rect_area_pkg' for CMake config files
+[12.048s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/rect_area_pkg/lib'
+[12.048s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/rect_area_pkg/bin'
+[12.048s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/rect_area_pkg/lib/pkgconfig/rect_area_pkg.pc'
+[12.048s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/rect_area_pkg/lib/python3.12/site-packages'
+[12.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('rect_area_pkg', 'pythonpath')
+[12.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/hook/pythonpath.ps1'
+[12.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/hook/pythonpath.dsv'
+[12.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/hook/pythonpath.sh'
+[12.050s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/rect_area_pkg/bin'
+[12.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rect_area_pkg)
+[12.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/package.ps1'
+[12.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/package.dsv'
+[12.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/package.sh'
+[12.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/package.bash'
+[12.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/rect_area_pkg/share/rect_area_pkg/package.zsh'
+[12.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/rect_area_pkg/share/colcon-core/packages/rect_area_pkg)
+[12.054s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erum/ros2_workspace/src/my_robot_bringup' with build type 'ament_cmake'
+[12.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erum/ros2_workspace/src/my_robot_bringup'
+[12.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/my_robot_bringup -- -j2 -l2
+[12.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/src/build/my_robot_bringup -- -j2 -l2
+[12.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/my_robot_bringup
+[12.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[12.141s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup' for CMake module files
+[12.141s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup' for CMake config files
+[12.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[12.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/src/install/my_robot_description:/home/erum/ros2_workspace/install/new_interfaces:/home/erum/ros2_workspace/install/my_robot_bringup:/home/erum/ros2_workspace/install/my_robot_description:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/opt/ros/jazzy:/home/erum/ros2_workspace/install/mobile_robot:/home/erum/ros2_workspace/install/gazebo_differential_drive_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/src/build/my_robot_bringup
+[12.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[12.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[12.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[12.144s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/bin'
+[12.144s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[12.144s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/lib/python3.12/site-packages'
+[12.144s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/bin'
+[12.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[12.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[12.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[12.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[12.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[12.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[12.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup' for CMake module files
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup' for CMake config files
+[12.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[12.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[12.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[12.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[12.151s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/bin'
+[12.151s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[12.151s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/lib/python3.12/site-packages'
+[12.151s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/my_robot_bringup/bin'
+[12.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[12.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[12.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[12.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[12.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[12.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[12.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erum/ros2_workspace/src/add_two_ints_pkg': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/src/install/new_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/src/install/new_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/ros2_workspace/src/install/new_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/ros2_workspace/src/build/add_two_ints_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/src/install/new_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/add_two_ints_pkg build --build-base /home/erum/ros2_workspace/src/build/add_two_ints_pkg/build install --record /home/erum/ros2_workspace/src/build/add_two_ints_pkg/install.log --single-version-externally-managed install_data
+[13.003s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/add_two_ints_pkg' for CMake module files
+[13.004s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/add_two_ints_pkg' for CMake config files
+[13.004s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/lib'
+[13.004s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/bin'
+[13.004s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/lib/pkgconfig/add_two_ints_pkg.pc'
+[13.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erum/ros2_workspace/src/add_two_ints_pkg' returned '0': AMENT_PREFIX_PATH=/home/erum/ros2_workspace/src/install/new_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/ros2_workspace/src/install/new_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/ros2_workspace/src/install/new_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/ros2_workspace/src/build/add_two_ints_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/ros2_workspace/src/install/add_two_ints_pkg/lib/python3.12/site-packages:/home/erum/ros2_workspace/src/install/new_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/add_two_ints_pkg build --build-base /home/erum/ros2_workspace/src/build/add_two_ints_pkg/build install --record /home/erum/ros2_workspace/src/build/add_two_ints_pkg/install.log --single-version-externally-managed install_data
+[13.006s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/lib/python3.12/site-packages'
+[13.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints_pkg', 'pythonpath')
+[13.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/pythonpath.ps1'
+[13.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/pythonpath.dsv'
+[13.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/hook/pythonpath.sh'
+[13.008s] Level 1:colcon.colcon_core.environment:checking '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/bin'
+[13.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(add_two_ints_pkg)
+[13.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/package.ps1'
+[13.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/package.dsv'
+[13.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/package.sh'
+[13.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/package.bash'
+[13.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/add_two_ints_pkg/package.zsh'
+[13.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erum/ros2_workspace/src/install/add_two_ints_pkg/share/colcon-core/packages/add_two_ints_pkg)
+[13.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.013s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.027s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.114s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/src/install/local_setup.ps1'
+[13.116s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erum/ros2_workspace/src/install/_local_setup_util_ps1.py'
+[13.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/src/install/setup.ps1'
+[13.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/src/install/local_setup.sh'
+[13.120s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erum/ros2_workspace/src/install/_local_setup_util_sh.py'
+[13.120s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/src/install/setup.sh'
+[13.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/src/install/local_setup.bash'
+[13.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/src/install/setup.bash'
+[13.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erum/ros2_workspace/src/install/local_setup.zsh'
+[13.124s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erum/ros2_workspace/src/install/setup.zsh'

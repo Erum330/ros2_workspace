@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/rect_area_pkg/rect_area_pkg.egg-info/PKG-INFO
+../build/rect_area_pkg/rect_area_pkg.egg-info/SOURCES.txt
+../build/rect_area_pkg/rect_area_pkg.egg-info/dependency_links.txt
+../build/rect_area_pkg/rect_area_pkg.egg-info/entry_points.txt
+../build/rect_area_pkg/rect_area_pkg.egg-info/requires.txt
+../build/rect_area_pkg/rect_area_pkg.egg-info/top_level.txt
+../build/rect_area_pkg/rect_area_pkg.egg-info/zip-safe
+rect_area_pkg/__init__.py
+rect_area_pkg/rect_client.py
+rect_area_pkg/rect_server.py
+resource/rect_area_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

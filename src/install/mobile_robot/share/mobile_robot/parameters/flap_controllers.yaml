@@ -1,0 +1,11 @@
+left_flap_controller:
+  ros__parameters:
+    type: position_controllers/JointPositionController
+    joint: left_flap_joint
+    pid: {p: 5.0, i: 0.0, d: 0.1}
+
+right_flap_controller:
+  ros__parameters:
+    type: position_controllers/JointPositionController
+    joint: right_flap_joint
+    pid: {p: 5.0, i: 0.0, d: 0.1}
