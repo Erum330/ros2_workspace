@@ -1,0 +1,56 @@
+[0.055s] Invoking command in '/home/erum/ros2_workspace/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/ros2_workspace/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/erum/ros2_workspace/install/mobile_robot
+[0.437s] -- The C compiler identification is GNU 13.3.0
+[1.548s] -- The CXX compiler identification is GNU 13.3.0
+[1.581s] -- Detecting C compiler ABI info
+[2.197s] -- Detecting C compiler ABI info - done
+[2.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.259s] -- Detecting C compile features
+[2.261s] -- Detecting C compile features - done
+[2.432s] -- Detecting CXX compiler ABI info
+[3.756s] -- Detecting CXX compiler ABI info - done
+[3.786s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.787s] -- Detecting CXX compile features
+[3.792s] -- Detecting CXX compile features - done
+[3.828s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.313s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.779s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.951s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.955s] -- Configured cppcheck include dirs: 
+[4.955s] -- Configured cppcheck exclude dirs and/or files: 
+[4.961s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.961s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.966s] -- Added test 'lint_cmake' to check CMake code style
+[4.973s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.004s] -- Added test 'uncrustify' to check C / C++ code style
+[5.005s] -- Configured uncrustify additional arguments: 
+[5.011s] -- Added test 'xmllint' to check XML markup files
+[5.015s] -- Configuring done (4.9s)
+[5.028s] -- Generating done (0.0s)
+[5.036s] -- Build files have been written to: /home/erum/ros2_workspace/build/mobile_robot
+[5.052s] Invoked command in '/home/erum/ros2_workspace/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/ros2_workspace/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/erum/ros2_workspace/install/mobile_robot
+[5.059s] Invoking command in '/home/erum/ros2_workspace/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/mobile_robot -- -j2 -l2
+[5.205s] Invoked command in '/home/erum/ros2_workspace/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/ros2_workspace/build/mobile_robot -- -j2 -l2
+[5.205s] Invoking command in '/home/erum/ros2_workspace/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/mobile_robot
+[5.250s] -- Install configuration: ""
+[5.250s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/launch
+[5.254s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/launch/robot.launch.py
+[5.260s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/model
+[5.260s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/model/robot.xacro
+[5.268s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/config
+[5.268s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/config/gz_bridge.yaml
+[5.269s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[5.269s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[5.273s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[5.274s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[5.274s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/environment/path.sh
+[5.275s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[5.275s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/local_setup.bash
+[5.277s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/local_setup.sh
+[5.278s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[5.278s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[5.281s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/package.dsv
+[5.282s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[5.282s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[5.282s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[5.283s] -- Installing: /home/erum/ros2_workspace/install/mobile_robot/share/mobile_robot/package.xml
+[5.288s] Invoked command in '/home/erum/ros2_workspace/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/ros2_workspace/install/rect_area_pkg:/home/erum/ros2_workspace/install/add_two_ints_pkg:/home/erum/ros2_workspace/install/my_first_pkg:/home/erum/ros2_workspace/install/Erum_pde4430:/home/erum/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/ros2_workspace/build/mobile_robot

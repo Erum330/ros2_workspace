@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flap-teleop
+Version: 0.0.1
+Summary: ROS 2 flap teleoperation node
+Maintainer: erum
+Maintainer-email: 58556663+Erum330@users.noreply.github.com
+License: Apache License 2.0

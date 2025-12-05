@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rect_area_pkg</name>
+  <version>0.0.0</version>
+  <description>Service to calculate the area of a rectangle</description>
+
+  <maintainer email="58556663+Erum330@users.noreply.github.com">erum</maintainer>
+  <license>MIT</license>
+
+  <!-- Dependencies -->
+  <depend>rclpy</depend>
+
+  <!-- These are required to generate and use .srv files -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

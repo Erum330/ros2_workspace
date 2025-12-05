@@ -1,0 +1,3 @@
+[console_scripts]
+minimal_client = add_two_ints_pkg.minimal_client:main
+minimal_server = add_two_ints_pkg.minimal_server:main
