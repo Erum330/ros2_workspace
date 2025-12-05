@@ -1,2 +1,0 @@
-[console_scripts]
-flap_teleop_node = flap_teleop.flap_teleop_node:main

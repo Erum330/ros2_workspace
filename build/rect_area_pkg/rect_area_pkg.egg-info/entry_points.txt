@@ -1,3 +1,0 @@
-[console_scripts]
-rect_client = rect_area_pkg.rect_client:main
-rect_server = rect_area_pkg.rect_server:main

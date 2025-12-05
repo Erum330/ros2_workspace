@@ -1,6 +1,0 @@
-source;share/rect_area_pkg/hook/pythonpath.ps1
-source;share/rect_area_pkg/hook/pythonpath.dsv
-source;share/rect_area_pkg/hook/pythonpath.sh
-source;share/rect_area_pkg/hook/ament_prefix_path.ps1
-source;share/rect_area_pkg/hook/ament_prefix_path.dsv
-source;share/rect_area_pkg/hook/ament_prefix_path.sh

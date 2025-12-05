@@ -1,6 +1,0 @@
-msg/IOTSensor.idl
-msg/IOTSensor.msg
-srv/AddTwoInts.idl
-srv/AddTwoInts.srv
-srv/RectangleArea.idl
-srv/RectangleArea.srv
