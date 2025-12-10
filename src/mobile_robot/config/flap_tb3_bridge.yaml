@@ -1,46 +1,39 @@
-# clock
 - ros_topic_name: "clock"
   gz_topic_name: "clock"
   ros_type_name: "rosgraph_msgs/msg/Clock"
   gz_type_name: "gz.msgs.Clock"
   direction: "GZ_TO_ROS"
 
-# joint states
 - ros_topic_name: "joint_states"
   gz_topic_name: "joint_states"
   ros_type_name: "sensor_msgs/msg/JointState"
   gz_type_name: "gz.msgs.Model"
   direction: "GZ_TO_ROS"
 
-# odom
 - ros_topic_name: "odom"
   gz_topic_name: "odom"
   ros_type_name: "nav_msgs/msg/Odometry"
   gz_type_name: "gz.msgs.Odometry"
   direction: "GZ_TO_ROS"
 
-# tf
 - ros_topic_name: "tf"
   gz_topic_name: "tf"
   ros_type_name: "tf2_msgs/msg/TFMessage"
   gz_type_name: "gz.msgs.Pose_V"
   direction: "GZ_TO_ROS"
 
-# base cmd_vel
 - ros_topic_name: "cmd_vel"
   gz_topic_name: "cmd_vel"
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "gz.msgs.Twist"
   direction: "ROS_TO_GZ"
 
-# lidar scan
 - ros_topic_name: "scan"
-  gz_topic_name: "lidar"
+  gz_topic_name: "scan"
   ros_type_name: "sensor_msgs/msg/LaserScan"
   gz_type_name: "gz.msgs.LaserScan"
   direction: "GZ_TO_ROS"
 
-# flaps
 - ros_topic_name: "left_flap_cmd"
   gz_topic_name: "left_flap_controller/cmd_pos"
   ros_type_name: "std_msgs/msg/Float64"

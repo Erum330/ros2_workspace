@@ -10,7 +10,7 @@ find_package(ament_cmake REQUIRED)
 
 # Install directories containing configuration, launch, and model files
 install(
-  DIRECTORY launch model config
+  DIRECTORY launch model config 
   DESTINATION share/${PROJECT_NAME}
 )
 

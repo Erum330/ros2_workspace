@@ -11,7 +11,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # Define the robot's name and package name
-    robot_name = "complex_differential_robot" # Updated name reflecting complexity
+    robot_name = "differential_drive_robot"
     package_name = "gazebo_differential_drive_robot"
 
     # Define a launch argument for the world file, defaulting to "empty.sdf"
@@ -28,9 +28,8 @@ def generate_launch_description():
     y_arg = DeclareLaunchArgument(
         'y', default_value='0.0', description='Initial Y position')
 
-    # Setting Z slightly higher than 0.5 to ensure it clears the ground with base_link height
     z_arg = DeclareLaunchArgument(
-        'z', default_value='0.6', description='Initial Z position')
+        'z', default_value='0.5', description='Initial Z position')
 
     roll_arg = DeclareLaunchArgument(
         'R', default_value='0.0', description='Initial Roll')
@@ -79,8 +78,7 @@ def generate_launch_description():
     gazebo_launch = IncludeLaunchDescription(
         gazebo_pkg_launch,
         launch_arguments={
-            # -r: run simulation on startup, -v 4: verbosity level 4
-            'gz_args': [f'-r -v 4 ', world_file], 
+            'gz_args': [f'-r -v 4 ', world_file],
             'on_exit_shutdown': 'true'
         }.items()
     )
@@ -104,7 +102,6 @@ def generate_launch_description():
     )
 
     # Create a node to publish the robot's state based on its URDF description
-    # IMPORTANT: use_sim_time MUST be True when using the clock bridge
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',

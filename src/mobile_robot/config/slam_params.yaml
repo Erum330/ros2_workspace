@@ -1,15 +1,21 @@
 slam_toolbox:
   ros__parameters:
-    use_sim_time: true
-    slam_mode: "mapping"          # online mapping
-    map_frame: "map"
-    odom_frame: "odom"
-    base_frame: "base_link"
-    scan_topic: "scan"
-    resolution: 0.05
-    max_laser_range: 8.0
-    minimum_time_interval: 0.1
-    transform_timeout: 1.0
-    tf_buffer_duration: 30.0
-    stack_size_to_use: 40000000
-    enable_interactive_mode: false
+    use_sim_time: True           # use simulation clock
+    mode: "mapping"              # mapping mode
+    map_file_name: ""            # leave empty to save later
+    scan_topic: "scan"           # your lidar topic
+    odom_topic: "odom"           # odometry topic
+    map_frame: "map"             # global frame
+    odom_frame: "odom"           # odom frame
+    base_frame: "base_link"      # robot base frame
+    publish_map: true
+    publish_pose: true
+    resolution: 0.05             # map resolution in meters
+    max_laser_range: 8.0         # max lidar range
+    minimum_time_interval: 0.05  # optional, for update rate
+    map_update_interval: 0.2     # how often to update map
+    sigma: 0.05                  # for scan matching
+    use_scan_matching: true
+    occupancy_min: 0.1
+    occupancy_max: 0.9
+    autostart: true              # start mapping immediately
