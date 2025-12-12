@@ -1,32 +1,43 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>mobile_robot</name>
-  <version>0.0.1</version>
-  <description>A ROS 2 package for simulating a complex differential drive robot with actuated flaps and LIDAR sensor using Gazebo (Ignition) and ros_gz_bridge.</description>
-  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <version>0.1.0</version>
+  <description>A ROS 2 package for simulating a differential drive robot with actuated flaps and LIDAR sensor using Gazebo and SLAM Toolbox.</description>
+
+  <!-- Maintainer and Author Information -->
+  <maintainer email="58556663+Erum330@users.noreply.github.com">erum</maintainer>
+
+  <!-- License -->
   <license>Apache License 2.0</license>
 
+  <!-- Build dependencies -->
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>ament_cmake_ros</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
 
   <!-- Runtime dependencies for the launch file and robot components -->
-  <exec_depend>joint_state_publisher</exec_depend>
-  <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>ros_gz_sim</exec_depend>
-  <exec_depend>xacro</exec_depend>
-  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>rclcpp</exec_depend>  <!-- Core ROS 2 C++ library -->
+  <exec_depend>geometry_msgs</exec_depend>  <!-- For geometry message types (e.g., Twist, Pose) -->
+  <exec_depend>nav_msgs</exec_depend>  <!-- For navigation messages like Odometry -->
+  <exec_depend>sensor_msgs</exec_depend>  <!-- For sensor data messages (e.g., LaserScan) -->
+  <exec_depend>tf2_ros</exec_depend>  <!-- For TF2 (Transformations) -->
+  <exec_depend>tf2</exec_depend>  <!-- Core TF2 library -->
+  <exec_depend>ros_gz_bridge</exec_depend>  <!-- Gazebo-ROS bridge for communication -->
+  <exec_depend>ros_gz_sim</exec_depend>  <!-- Gazebo-ROS simulator integration -->
+  <exec_depend>rviz2</exec_depend>  <!-- Visualization in RViz -->
+  <exec_depend>robot_state_publisher</exec_depend>  <!-- For publishing robot state -->
+  <exec_depend>slam_toolbox</exec_depend>  <!-- SLAM Toolbox for mapping and localization -->
   
-  <!-- Message Dependencies required for the bridge topics -->
-  <exec_depend>rosgraph_msgs</exec_depend>
-  <exec_depend>sensor_msgs</exec_depend> 
-  <exec_depend>nav_msgs</exec_depend>
-  <exec_depend>tf2_msgs</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
-  <exec_depend>std_msgs</exec_depend> 
-
+  <!-- Message Dependencies for Bridge Topics -->
+  <exec_depend>rosgraph_msgs</exec_depend>  <!-- For ROS graph messages (e.g., Clock) -->
+  <exec_depend>std_msgs</exec_depend>  <!-- Standard messages (e.g., Float64, String) -->
+  <exec_depend>tf2_msgs</exec_depend>  <!-- For TF2 messages -->
+  
+  <!-- Test dependencies -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
+  <!-- Exported build type -->
   <export>
     <build_type>ament_cmake</build_type>
   </export>

@@ -44,7 +44,9 @@
   <!-- ========================== -->
   <!-- BASE & FOOTPRINT           -->
   <!-- ========================== -->
+  
   <link name="base_footprint"/>
+
 
   <link name="base_link">
     <visual>
@@ -67,9 +69,9 @@
     </inertial>
   </link>
 
-  <!-- Raise base so wheels touch ground -->
+<!-- Raise base so wheels touch ground -->
   <joint name="robot_base_joint" type="fixed">
-    <parent link="base_footprint"/>
+    <parent link="base_footprint"/>  <!-- This was changed from world to base_link -->
     <child link="base_link"/>
     <origin xyz="0 0 ${wheel_radius}"/>
   </joint>
@@ -310,7 +312,12 @@
       <max_linear_acceleration>${max_linear_acceleration}</max_linear_acceleration>
       <odom_publish_frequency>100</odom_publish_frequency>
       <topic>cmd_vel</topic>
+      <publish_odom>true</publish_odom>
+      <publish_wheel_tf>true</publish_wheel_tf>
+      <publish_odom_tf>true</publish_odom_tf>
       <odom_topic>odom</odom_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_footprint</child_frame_id>
     </plugin>
     
 
