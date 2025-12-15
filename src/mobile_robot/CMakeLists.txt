@@ -17,7 +17,7 @@ find_package(ros_gz REQUIRED)
 
 # Install directories containing configuration, launch, and model files
 install(
-  DIRECTORY launch model config rviz
+  DIRECTORY launch model config rviz maps
   DESTINATION share/${PROJECT_NAME}
 )
 
